@@ -9,80 +9,235 @@ export class LinkedList {
   constructor() {
     this.head = null;
     this.tail = null;
+    this.size = 0;
   }
 
   add(value) {
-    let node = new Node(value);
+    const node = new Node(value);
+    if (this.head == null) {
+      this.head = node;
+    }
+
     if (this.tail) {
       this.tail.next = node;
     }
     this.tail = node;
-
-    if (this.head === null) {
-      this.head = node;
-    }
+    this.size++;
   }
 
   display() {
-    let currentPointer = this.head;
+    let tempHead = this.head;
 
-    console.log(`Start`);
+    console.log(`Started`);
 
-    while (currentPointer !== null) {
-      console.log(`Element => ${currentPointer.value}`);
-      currentPointer = currentPointer.next;
+    while (tempHead !== null) {
+      console.log(`Element is ${tempHead.value}`);
+      tempHead = tempHead.next;
     }
 
     console.log(`End`);
   }
 
-  addFirst(value) {
-    const node = new Node(value);
-
-    if (this.head === null) {
-      this.head = node;
-      this.tail = node; 
+  isEmpty() {
+    if (this.size === 0) {
+      return true;
     } else {
-      node.next = this.head;
-      this.head = node;
+      return false;
     }
   }
 
+  length() {
+    return this.size;
+  }
+
+  addFirst(value) {
+    if (!value) return;
+
+    if (this.isEmpty()) {
+      this.add(value);
+    }
+
+    let node = new Node(value);
+    node.next = this.head;
+    this.head = node;
+
+    this.size++;
+  }
+
   addAtIndex(index, value) {
-    if (index < 0) {
+    if (index < 0 || index > this.size) {
       console.log("Invalid index");
       return;
     }
 
-    // Case 1: Adding at the beginning (index 0)
     if (index === 0) {
       this.addFirst(value);
       return;
     }
 
-    let current = this.head;
+    let tempHead = this.head;
     let count = 0;
 
-    // Traverse the list to find the node just before the specified index
-    while (current !== null && count < index - 1) {
-      current = current.next;
+    const node = new Node(value);
+
+    while (count < index - 1) {
+      tempHead = tempHead.next;
       count++;
     }
 
-    // Case 2: If index is greater than the length of the list, don't insert
-    if (current === null) {
-      console.log("Index out of bounds");
+    node.next = tempHead.next;
+    tempHead.next = node;
+
+    this.size++;
+  }
+
+  removeFirst() {
+    if (this.isEmpty()) {
+      console.log(`List is Empty`);
+      return;
+    }
+    this.head = this.head.next;
+    this.size--;
+  }
+
+  removeLast() {
+    if (this.isEmpty()) {
+      console.log(`List is Empty`);
       return;
     }
 
-    // Case 3: Inserting at a valid index
-    let newNode = new Node(value);
-    newNode.next = current.next;
-    current.next = newNode;
-
-    // Case 4: If inserting at the end, update the tail
-    if (newNode.next === null) {
-      this.tail = newNode;
+    if (this.size === 1) {
+      this.removeFirst();
+      return;
     }
+
+    let tempHead = this.head;
+    while (tempHead.next !== this.tail) {
+      tempHead = tempHead.next;
+    }
+
+    tempHead.next = null;
+    this.tail = tempHead;
+    this.size--;
+  }
+
+  removeByIndex(index) {
+    if (this.isEmpty() || index < 0 || index >= this.size) {
+      console.log(`Invalid index or empty list`);
+      return;
+    }
+
+    if (index === 0) {
+      this.removeFirst();
+    }
+
+    let tempHead = this.head;
+    let count = 0;
+
+    let previousNode = null;
+
+    while (tempHead !== null && count < index) {
+      previousNode = tempHead;
+      tempHead = tempHead.next;
+      count++;
+    }
+
+    if (tempHead !== null) {
+      previousNode.next = tempHead.next;
+
+      if (tempHead === this.tail) {
+        this.tail = previousNode;
+      }
+
+      this.size--;
+    }
+  }
+
+  removeByValue(value) {
+    let tempHead = this.head;
+    let previousNode = null;
+    while (tempHead !== null) {
+      if (tempHead.value === value) {
+        if (tempHead === this.head) {
+          this.head = tempHead.next;
+          if (this.head === null) {
+            this.tail = null;
+          }
+        } else if (tempHead === this.tail) {
+          this.tail = previousNode;
+          previousNode.next = null;
+        } else {
+          previousNode.next = tempHead.next;
+        }
+        this.size--;
+        console.log(`Removed value: ${value}`);
+        break;
+      }
+
+      previousNode = tempHead;
+      tempHead = tempHead.next;
+    }
+
+    console.log(`Value ${value} not found in the list.`);
+  }
+
+  removeByValueAll(value) {
+    let tempHead = this.head;
+    let previousNode = null;
+    while (tempHead !== null) {
+      if (tempHead.value === value) {
+        if (tempHead === this.head) {
+          this.head = tempHead.next;
+          if (this.head === null) {
+            this.tail = null;
+          }
+        } else if (tempHead === this.tail) {
+          this.tail = previousNode;
+          previousNode.next = null;
+        } else {
+          previousNode.next = tempHead.next;
+        }
+        this.size--;
+        console.log(`Removed value: ${value}`);
+        tempHead = previousNode ? previousNode.next : this.head;
+      } else {
+        previousNode = tempHead;
+        tempHead = tempHead.next;
+      }
+    }
+  }
+
+  reverse() {
+    if (this.size < 2) {
+      return;
+    }
+
+    let previous = null;
+    let current = this.head;
+    let next = this.head.next;
+
+    while (current !== null) {
+      current.next = previous;
+      previous = current;
+      current = next;
+      if (next != null) {
+        next = next.next;
+      }
+    }
+
+    this.head = previous;
+  }
+
+  reverseUsingRecursion() {
+    const reverseRecursively = (node) => {
+      if (node === null || node.next === null) {
+        return node;
+      }
+      const newHead = reverseRecursively(node.next);
+      node.next.next = node; 
+      node.next = null;  
+      return newHead; 
+    };
+    this.head = reverseRecursively(this.head);
   }
 }
