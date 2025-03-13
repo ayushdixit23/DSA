@@ -240,4 +240,28 @@ export class LinkedList {
     };
     this.head = reverseRecursively(this.head);
   }
+
+  createCycle(position) {
+    if (position < 0 || position >= this.size) {
+      console.log("Invalid position for cycle");
+      return;
+    }
+
+    let tempHead = this.head;
+    let count = 0;
+    let cycleNode = null;
+
+    while (tempHead !== null) {
+      if (count === position) {
+        cycleNode = tempHead; 
+      }
+      if (tempHead.next === null) {
+        tempHead.next = cycleNode; 
+        console.log(`Cycle created at node ${cycleNode.value}`);
+        return;
+      }
+      tempHead = tempHead.next;
+      count++;
+    }
+  }
 }
