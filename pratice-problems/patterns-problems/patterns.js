@@ -48,7 +48,7 @@ const pattern4 = () => {
 };
 
 // console.log(`Pattern 4`);
-// pattern4();
+// pattern4()
 
 const pattern5 = () => {
   for (let i = 1; i <= 5; i++) {
@@ -70,7 +70,7 @@ const pattern6 = () => {
       rows += `* `;
     }
 
-    console.log(rows)
+    console.log(rows);
   }
 
   for (let i = 0; i < 5; i++) {
@@ -79,38 +79,80 @@ const pattern6 = () => {
     for (let j = 5; j > i; j--) {
       rows += `* `;
     }
-  console.log(rows)
+    console.log(rows);
   }
 };
 
 // pattern6();
 
 function printDiamond() {
-    for (let i = 1; i <= 5; i++) {
-        let row = "";
-        
-        for (let j = 1; j <= 5 - i; j++) {
-            row += " ";
-        }
-      
-        for (let j = 1; j <= i; j++) {
-            row += "* ";
-        }
-        console.log(row);
+  for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= 5 - i; j++) {
+      row += " ";
     }
 
-    for (let i = 4; i >= 1; i--) {
-        let row = "";
-      
-        for (let j = 1; j <= 5 - i; j++) {
-            row += " ";
-        }
-       
-        for (let j = 1; j <= i; j++) {
-            row += "* ";
-        }
-        console.log(row);
+    for (let j = 1; j <= i; j++) {
+      row += "* ";
     }
+    console.log(row);
+  }
+
+  for (let i = 4; i >= 1; i--) {
+    let row = "";
+
+    for (let j = 1; j <= 5 - i; j++) {
+      row += " ";
+    }
+
+    for (let j = 1; j <= i; j++) {
+      row += "* ";
+    }
+    console.log(row);
+  }
 }
 
 // printDiamond();
+
+const pattern7 = () => {
+  for (let i = 1; i <= 5; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += `${i} `;
+    }
+    console.log(row);
+  }
+};
+
+// console.log(`Pattern 7`);
+// pattern7()
+
+const pattern8 = () => {
+  for (let i = 5; i > 0; i--) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += `*`;
+    }
+    console.log(row);
+  }
+};
+
+// console.log(`Pattern 8`);
+// pattern8()
+
+
+const pattern9 = () => {
+  for (let i = 5; i > 0; i--) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+      row += `${j}`;
+    }
+    console.log(row);
+  }
+};
+
+// console.log(`Pattern 9`);
+// pattern9()
+
+
