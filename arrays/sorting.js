@@ -1,53 +1,51 @@
-// const arr = [42, 7, 19, 85, 23, 3];
+const arr = [5, 4, 3, 2, 1];
+// const arr = [3, 5, 2, 1, 4];
+// const arr= [1,2,3,4,5]
 
-// const arr = [3, 7, 19, 23, 42, 85];
-const arr = [3, 5, 2, 1, 4];
-
-//Bubble Sort
-const bubbleSort = (arr) => {
+// Bubble Sort
+const bubbleSort = () => {
+  let swapped;
   for (let i = 0; i < arr.length - 1; i++) {
-    let swapped = false;
-    for (let j = 0; j < arr.length - i - 1; j++) {
-      if (arr[j] > arr[j + 1]) {
-        const temp = arr[j + 1];
-        arr[j + 1] = arr[j];
-        arr[j] = temp;
+    swapped = false;
+    for (let j = 1; j < arr.length - i; j++) {
+      if (arr[j - 1] > arr[j]) {
+        const temp = arr[j];
+        arr[j] = arr[j - 1];
+        arr[j - 1] = temp;
+
         swapped = true;
       }
     }
-
     if (!swapped) {
-      console.log(`Already Sorted!`);
       break;
     }
   }
 };
 
-// bubbleSort(arr);
+// bubbleSort();
+// console.log(arr);
 
 // Selection Sort
-const selectionSort = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    let largestElementIndex = 0;
-
-    const last = arr.length - i - 1;
-
+const selectionSort = () => {
+  for (let i = 0; i < arr.length - 1; i++) {
+    let largestIndex = 0;
+    let last = arr.length - i - 1;
     for (let j = 0; j <= last; j++) {
-      if (arr[j] > arr[largestElementIndex]) {
-        largestElementIndex = j;
+      if (arr[j] > arr[largestIndex]) {
+        largestIndex = j;
       }
     }
-
-    const temp = arr[last];
-    arr[last] = arr[largestElementIndex];
-    arr[largestElementIndex] = temp;
+    const temp = arr[largestIndex];
+    arr[largestIndex] = arr[last];
+    arr[last] = temp;
   }
 };
 
-// selectionSort(arr);
+// selectionSort();
+// console.log(arr);
 
 // Insertion Sort
-const insertionSort = (arr) => {
+const insertionSort = () => {
   for (let i = 1; i < arr.length; i++) {
     for (let j = i; j > 0; j--) {
       if (arr[j] < arr[j - 1]) {
@@ -61,21 +59,45 @@ const insertionSort = (arr) => {
   }
 };
 
-// insertionSort(arr);
+// insertionSort();
+// console.log(arr);
 
+// Cyclic Sort
 const cyclicSort = () => {
-  let i = 0;
-  while (i < arr.length) {
-    let correctIndex = arr[i] - 1; // Correct position of arr[i]
-    if (arr[i] !== arr[correctIndex]) {
-      // Swap arr[i] with arr[correctIndex]
-      [arr[i], arr[correctIndex]] = [arr[correctIndex], arr[i]];
-    } else {
-      i++;
-    }
+  for (let i = 0; i < arr.length; i++) {
+    const swappedValueIndex = arr[i] - 1;
+    const temp = arr[i];
+    arr[i] = arr[swappedValueIndex];
+    arr[swappedValueIndex] = temp;
   }
-  return arr;
 };
 
-cyclicSort();
+// cyclicSort();
 // console.log(arr);
+
+const myArr = [4, 2, 2, 5, 3, 3, 1];
+
+// Counting Sort
+const countingSort = () => {
+  const object = [1, 2, 3, 4, 5].reduce((acc, num) => {
+    acc[num] = 0;
+    return acc;
+  }, {});
+
+  for (let i = 0; i < myArr.length; i++) {
+    object[myArr[i]]++;
+  }
+
+  let index = 0;
+  for (let num in object) {
+    const frequency = object[num];
+
+    for (let i = 0; i < frequency; i++) {
+      myArr[index++] = Number(num); 
+    }
+  }
+};
+
+// countingSort();
+// console.log(myArr);
+
