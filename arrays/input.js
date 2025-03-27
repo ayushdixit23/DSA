@@ -64,5 +64,5 @@ rl.question("Enter the number of rows: ", (rows) => {
   
       getNumber(0);
     });
-  });
+});
 

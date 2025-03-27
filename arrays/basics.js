@@ -68,7 +68,7 @@ export const iterateInArraysAndConsoleLogs = (arr) => {
 // let position = fruits.indexOf("Apple", 3);
 // console.log(position,"pos") // 4
 
-// Array.indexOf() returns the position of the last occurrence of the specified element.
+// Array.lastIndexOf() returns the position of the last occurrence of the specified element.
 
 // const fruits = ["Apple", "Orange", "Apple", "Mango"];
 // let position = fruits.lastIndexOf("Apple")
