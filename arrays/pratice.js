@@ -135,7 +135,7 @@ const intersection = function (nums1, nums2) {
 
 // console.log(intersection(nums1, nums2));
 
-const nums = [4, 2, 4];
+// const nums = [4, 2, 4];
 const findSubarrays = function (nums) {
   const subarrays = nums.map((_, i) => nums.slice(i, i + 2)).slice(0, -1);
 
@@ -154,5 +154,63 @@ const findSubarrays = function (nums) {
   return false;
 };
 
-console.log(findSubarrays(nums));
-console.log(findSubarrays([1,2,3,4,5]));
+// console.log(findSubarrays(nums));
+// console.log(findSubarrays([1,2,3,4,5]));
+
+// Maximum Subarray
+// const nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+const maxSubArray = function (nums) {
+  let sum = 0;
+  for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+  }
+  return sum;
+};
+
+console.log(maxSubArray(nums));
+
+// Arithmetic Subarrays
+// const nums = [4, 6, 5, 9, 3, 7];
+// const l = [0, 0, 2];
+// const r = [2, 3, 5];
+// const checkArithmeticSubarrays = function (nums, l, r) {
+//   const result = [];
+//   for (let i = 0; i < l.length; i++) {
+//     const localResult = [];
+//     const start = l[i];
+//     const end = r[i];
+
+//     const sliceArray = nums.slice(start, end + 1);
+//     const sortedArray = sliceArray.sort((a, b) => {
+//       return a - b;
+//     });
+
+//     if (sortedArray.length < 2) {
+//       localResult.push(true);
+//       break;
+//     }
+
+//     const difference = sortedArray[1] - sortedArray[0];
+
+//     for (let i = 1; i < sortedArray.length - 1; i++) {
+//       if (sortedArray[i + 1] - sortedArray[i] !== difference) {
+//         localResult.push(false);
+//       } else {
+//         localResult.push(true);
+//       }
+//     }
+
+//     let isAllTrue = localResult.every((value, index, array) => {
+//       return value == true;
+//     });
+
+//     if (isAllTrue) {
+//       result.push(true);
+//     } else {
+//       result.push(false);
+//     }
+//   }
+//   return result;
+// };
+
+// console.log(checkArithmeticSubarrays());
