@@ -159,15 +159,22 @@ const findSubarrays = function (nums) {
 
 // Maximum Subarray
 // const nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+
+// const nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
+// const nums = [-1];
 const maxSubArray = function (nums) {
-  let sum = 0;
-  for (let i = 0; i < nums.length; i++) {
-    sum += nums[i];
+  let largestSum = nums[0];
+  let currentSum = nums[0];
+
+  for (let i = 1; i < nums.length; i++) {
+    currentSum = Math.max(nums[i], currentSum + nums[i]);
+    largestSum = Math.max(largestSum, currentSum);
   }
-  return sum;
+
+  return largestSum;
 };
 
-console.log(maxSubArray(nums));
+// console.log(maxSubArray(nums));
 
 // Arithmetic Subarrays
 // const nums = [4, 6, 5, 9, 3, 7];
@@ -214,3 +221,42 @@ console.log(maxSubArray(nums));
 // };
 
 // console.log(checkArithmeticSubarrays());
+
+// Sliding Window Maximum
+
+// Brute force
+// const maxSlidingWindow = function (nums, k) {
+//   console.log(nums);
+//   if (nums.length == 1 && k == 1) {
+//     return nums;
+//   }
+//   const result = []
+//   for (let i = 0; i < nums.length - k + 1; i++) {
+//     const arr = nums.slice(i, i + k);
+//     let max = arr[0]
+//     for (let j = 1; j < arr.length; j++) {
+//       if(arr[j]>max){
+//         max = arr[j]
+//       }
+//     }
+//     result.push(max)
+//   }
+
+//   return result
+// };
+
+
+// Optimized Solution
+const maxSlidingWindow = function (nums, k) {
+  if (nums.length == 1 && k == 1) {
+    return nums;
+  }
+  const result = []
+  for (let i = 0; i < nums.length - k + 1; i++) {
+   
+  }
+
+  return result
+};
+
+console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
