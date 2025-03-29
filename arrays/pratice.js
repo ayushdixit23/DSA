@@ -290,14 +290,39 @@ const removeDuplicates = function (nums) {
   for (let i = 0; i < nums.length; i++) {
     if (!map.has(nums[i])) {
       map.set(nums[i], true);
-      nums[index] = nums[i]; 
+      nums[index] = nums[i];
       index++;
     }
   }
 
-  nums.length = index; 
+  nums.length = index;
   return index;
 };
 
+// console.log(removeDuplicates(nums));
 
-console.log(removeDuplicates(nums))
+const arr = [1, 9, 6, 3, 2];
+const size = 3;
+
+const chunk = function (arr, size) {
+  if (!arr.length) {
+    return arr;
+  }
+  if (size > arr.length) {
+    return [arr];
+  }
+
+  const nums = [];
+  for (let i = 0; i < arr.length; i += size) {
+    const newa = arr.slice(i, i + size);
+    nums.push(newa);
+  }
+
+  return nums;
+};
+
+// console.log(chunk(arr, size));
+console.log(chunk([1,2,3,4,5], 1));
+// console.log(chunk([1, 9, 6, 3, 2], 3));
+
+Array.prototype.length
