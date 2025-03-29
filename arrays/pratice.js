@@ -245,18 +245,59 @@ const maxSubArray = function (nums) {
 //   return result
 // };
 
-
 // Optimized Solution
 const maxSlidingWindow = function (nums, k) {
   if (nums.length == 1 && k == 1) {
     return nums;
   }
-  const result = []
-  for (let i = 0; i < nums.length - k + 1; i++) {
-   
-  }
+  const result = [];
+  for (let i = 0; i < nums.length - k + 1; i++) {}
 
-  return result
+  return result;
 };
 
-console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
+// console.log(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3));
+
+// const nums = [-1, 0, 1, 2, -1, -4];
+const threeSum = function (nums) {
+  nums.sort((a, b) => a - b);
+
+  let uniqueTriplets = new Set();
+
+  for (let i = 0; i < nums.length - 2; i++) {
+    for (let j = i + 1; j < nums.length - 1; j++) {
+      for (let k = j + 1; k < nums.length; k++) {
+        if (nums[i] + nums[j] + nums[k] === 0) {
+          uniqueTriplets.add(JSON.stringify([nums[i], nums[j], nums[k]]));
+        }
+      }
+    }
+  }
+
+  // Convert back to array and print
+  return [...uniqueTriplets].map(JSON.parse);
+};
+
+// console.log(threeSum(nums));
+
+const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+
+// Remove Duplicates from Sorted Array
+const removeDuplicates = function (nums) {
+  const map = new Map();
+  let index = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    if (!map.has(nums[i])) {
+      map.set(nums[i], true);
+      nums[index] = nums[i]; 
+      index++;
+    }
+  }
+
+  nums.length = index; 
+  return index;
+};
+
+
+console.log(removeDuplicates(nums))
