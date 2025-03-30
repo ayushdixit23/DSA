@@ -103,11 +103,11 @@ const findMinimumNumberIn2DArray = () => {
 //   [3, 5, 6],
 // ];
 
-const matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-  ];
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
 
 // Transpose of a Matrix
 const transposeOfMatrix = () => {
@@ -168,8 +168,111 @@ const reverseRowOfMatrix = () => {
     }
   }
 
-  return matrix
+  return matrix;
+};
+
+// console.log(reverseRowOfMatrix())
+
+// Rotate a Matrix 90° Clockwise
+const rotateMatrixClockWise = () => {
+  const cache = new Map();
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      if (i == j) {
+        continue;
+      } else {
+        if (!cache.has(i + j)) {
+          const temp = matrix[i][j];
+          matrix[i][j] = matrix[j][i];
+          matrix[j][i] = temp;
+
+          cache.set(i + j, true);
+        } else {
+          continue;
+        }
+      }
+    }
+  }
+
+  for (let i = 0; i < matrix.length; i++) {
+    let start = 0;
+    let end = matrix[i].length - 1;
+
+    while (start <= end) {
+      const temp = matrix[i][start];
+      matrix[i][start] = matrix[i][end];
+      matrix[i][end] = temp;
+      start++;
+      end--;
+    }
+  }
+
+  return matrix;
+};
+
+// console.log(rotateMatrixClockWise());
+
+// Find the Diagonal Sum
+const diagonalSum = () => {
+  let sum = 0;
+  //   for (let i = 0; i < matrix.length; i++) {
+  //     for (let j = 0; j < matrix[i].length; j++) {
+  //       if (i !== j) {
+  //         continue;
+  //       } else {
+  //         sum += matrix[i][j];
+  //       }
+  //     }
+  //   }
+
+  for (let i = 0; i < matrix.length; i++) {
+    sum += matrix[i][i];
+  }
+
+  return sum;
+};
+
+// console.log(diagonalSum());
+
+const matrix = [
+  [1, 4, 7, 100],
+  [2, 5, 8, 11],
+  [3, 6, 9, 12],
+];
+const target = 11;
+
+// Searching
+const searchElementin2darray = () => {
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      if (matrix[i][j] === target) {
+        return [i, j];
+      }
+    }
+  }
+
+  return [-1, -1];
+};
+
+// console.log(searchElementin2darray())
+
+// Find the Row with the Maximum Sum
+const maximumSumRow = () => {
+  let row = null;
+  let maximumsum = Number.MIN_VALUE;
+  for (let i = 0; i < matrix.length; i++) {
+    let rowSum = 0;
+    for (let j = 0; j < matrix[i].length; j++) {
+      rowSum += matrix[i][j];
+    }
+    if(rowSum > maximumsum){
+        row = i
+        maximumsum = rowSum
+    }
+  }
+  console.log(`Row is at ${row} has maximum sum of ${maximumsum}`);
 };
 
 
-// console.log(reverseRowOfMatrix())
+// console.log(maximumSumRow())
+
