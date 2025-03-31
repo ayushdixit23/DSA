@@ -23,7 +23,7 @@ const findSecondLargest = () => {
 // console.log(findSecondLargest());
 
 // Move Zeros to End
-// const arr = [0, 1, 0, 3, 12];
+const arr = [[0,0,1]];
 const moveZerosToEnd = () => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 0) {
@@ -34,8 +34,8 @@ const moveZerosToEnd = () => {
   }
 };
 
-// moveZerosToEnd();
-// console.log(arr);
+moveZerosToEnd();
+console.log(arr);
 
 // Find the Missing Number in an Array
 // const arr = [1, 2, 3, 4, 6];
@@ -301,7 +301,7 @@ const removeDuplicates = function (nums) {
 
 // console.log(removeDuplicates(nums));
 
-const arr = [1, 9, 6, 3, 2];
+// const arr = [1, 9, 6, 3, 2];
 const size = 3;
 
 const chunk = function (arr, size) {
@@ -322,7 +322,5 @@ const chunk = function (arr, size) {
 };
 
 // console.log(chunk(arr, size));
-console.log(chunk([1,2,3,4,5], 1));
+// console.log(chunk([1,2,3,4,5], 1));
 // console.log(chunk([1, 9, 6, 3, 2], 3));
-
-Array.prototype.length
