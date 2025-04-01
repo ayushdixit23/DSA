@@ -23,7 +23,7 @@ const findSecondLargest = () => {
 // console.log(findSecondLargest());
 
 // Move Zeros to End
-const arr = [[0,0,1]];
+// const arr = [[0, 0, 1]];
 const moveZerosToEnd = () => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === 0) {
@@ -34,8 +34,8 @@ const moveZerosToEnd = () => {
   }
 };
 
-moveZerosToEnd();
-console.log(arr);
+// moveZerosToEnd();
+// console.log(arr);
 
 // Find the Missing Number in an Array
 // const arr = [1, 2, 3, 4, 6];
@@ -280,7 +280,7 @@ const threeSum = function (nums) {
 
 // console.log(threeSum(nums));
 
-const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+// const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 
 // Remove Duplicates from Sorted Array
 const removeDuplicates = function (nums) {
@@ -324,3 +324,124 @@ const chunk = function (arr, size) {
 // console.log(chunk(arr, size));
 // console.log(chunk([1,2,3,4,5], 1));
 // console.log(chunk([1, 9, 6, 3, 2], 3));
+
+const a = [1, 2, 3, 4, 5];
+const b = [1, 2, 3, 6, 7];
+const findUnion = () => {
+  let i = 0;
+  let j = 0;
+  const sortedArrayUnion = [];
+
+  while (i < a.length && j < b.length) {
+    if (a[i] <= b[j]) {
+      if (!sortedArrayUnion.includes(a[i])) {
+        sortedArrayUnion.push(a[i]);
+      }
+      i++;
+    } else {
+      if (!sortedArrayUnion.includes(b[j])) {
+        sortedArrayUnion.push(b[j]);
+      }
+      j++;
+    }
+  }
+
+  while (i < a.length) {
+    if (!sortedArrayUnion.includes(a[i])) {
+      sortedArrayUnion.push(a[i]);
+    }
+    i++;
+  }
+  while (j < b.length) {
+    if (!sortedArrayUnion.includes(b[j])) {
+      sortedArrayUnion.push(b[j]);
+    }
+    j++;
+  }
+
+  return sortedArrayUnion;
+};
+
+// console.log(findUnion());
+
+// Longest Subarray with Sum K
+
+const longestSubArrayLengthK = () => {
+  let maxLength = 0;
+  let prefixSum = 0;
+  const prefixSumMap = new Map();
+  prefixSumMap.set(0, -1);
+  for (let i = 0; i < arr.length; i++) {
+    prefixSum += arr[i];
+    if (prefixSumMap.has(prefixSum - k)) {
+      const previousIndex = prefixSumMap.get(prefixSum - k);
+      const length = i - previousIndex;
+      maxLength = Math.max(maxLength, length);
+    }
+    if (!prefixSumMap.has(prefixSum)) {
+      prefixSumMap.set(prefixSum, i);
+    }
+  }
+  return maxLength;
+};
+
+const arr = [10, 5, 2, 7, 1, -10];
+const k = 15;
+
+// console.log(longestSubArrayLengthK());
+
+const majorityElement = function (nums) {
+  const object = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    if (!object[nums[i]]) {
+      object[nums[i]] = 1;
+    } else {
+      object[nums[i]]++;
+    }
+  }
+
+  for (let value of Object.keys(object)) {
+    if (object[value] > Math.floor(nums.length / 2)) {
+      return value;
+    }
+  }
+};
+
+// const nums = [3,2,3]
+
+// console.log(majorityElement(nums))
+
+// const maxProfit = function (prices) {
+//   let outerDiffernce = 0
+//   for (let i = 0; i < prices.length; i++) {
+//     let difference = 0;
+//     for (let j = i + 1; j < prices.length; j++) {
+//       if (prices[j] - prices[i] > 0) {
+//         dif = prices[j] - prices[i];
+//         difference = Math.max(dif,difference)
+//       }
+//     }
+//     outerDiffernce = Math.max(difference,outerDiffernce)
+//   }
+
+//   return outerDiffernce
+// };
+
+const maxProfit = function (prices) {
+  let smallestElement = prices[0]
+
+  let difference = 0
+  for(let i=0;i<prices.length;i++){
+    if(prices[i]<smallestElement){
+      smallestElement= prices[i]
+    }
+    if(prices[i]-smallestElement> 0){
+      difference = Math.max(difference,prices[i]-smallestElement)
+    }
+  }
+  return difference
+};
+
+// console.log(maxProfit([7, 6, 4, 3, 1]));
+console.log(maxProfit([7, 1, 5, 3, 6, 4]));
