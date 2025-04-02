@@ -177,7 +177,112 @@ const singleNumber = function () {
 };
 
 // const nums = [2, 2, 1];
-const nums = [4, 1, 2, 1, 2];
+// const nums = [4, 1, 2, 1, 2];
 // const nums = [-1, -1, -2];
 
-console.log(singleNumber());
+// console.log(singleNumber());
+
+const sort012 = () => {
+  let start = 0;
+  let mid = 0;
+  let end = nums.length - 1;
+
+  const swap = (nums, start, end) => {
+    const temp = nums[start];
+    nums[start] = nums[end];
+    nums[end] = temp;
+  };
+  while (mid <= end) {
+    switch (nums[mid]) {
+      case 0:
+        swap(nums, start, mid);
+        start++;
+        mid++;
+        break;
+
+      case 1:
+        mid++;
+        break;
+
+      case 2:
+        swap(nums, mid, end);
+        end--;
+        break;
+    }
+  }
+
+  return nums;
+};
+// const nums = [2, 0, 2, 1, 1, 0];
+
+// console.log(sort012())
+
+const pairWithMaxSum = () => {
+  let currentSum = arr[0] + arr[1];
+  let maxSum = currentSum;
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    currentSum = currentSum - arr[i - 1] + arr[i + 1];
+    maxSum = Math.max(maxSum, currentSum);
+  }
+
+  return maxSum;
+};
+
+const longestConsecutiveSequence = () => {
+  if (nums.length === 0) {
+    return 0;
+  }
+  
+  nums.sort((a, b) => a - b);
+
+  let count = 1;
+  let maximumCount = 0;
+
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] !== nums[i - 1]) {
+      if (nums[i] === nums[i - 1] + 1) {
+        count++;
+      } else {
+        maximumCount = Math.max(maximumCount, count);
+        count = 1;
+      }
+    }
+  }
+
+  return Math.max(maximumCount, count);
+};
+
+const nums = [100, 4, 200, 1, 3, 2];
+
+console.log(longestConsecutiveSequence());
+
+const maxProduct = function () {
+  let leftProduct = 1;
+  let rightProduct = 1;
+  let largestProduct = nums[0];
+
+  for (let i = 0; i < nums.length; i++) {
+    if (leftProduct == 0) {
+      leftProduct = 1;
+    }
+
+    if (rightProduct == 0) {
+      rightProduct = 1;
+    }
+
+    leftProduct *= nums[i];
+    rightProduct *= nums[nums.length - i - 1];
+
+    largestProduct = Math.max(
+      largestProduct,
+      Math.max(leftProduct, rightProduct)
+    );
+  }
+
+  return largestProduct;
+};
+
+// const nums = [2, 3, -2, 4];
+
+// console.log(maxProduct());
