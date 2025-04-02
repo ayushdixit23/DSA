@@ -385,8 +385,8 @@ const longestSubArrayLengthK = () => {
   return maxLength;
 };
 
-const arr = [10, 5, 2, 7, 1, -10];
-const k = 15;
+// const arr = [10, 5, 2, 7, 1, -10];
+// const k = 15;
 
 // console.log(longestSubArrayLengthK());
 
@@ -429,19 +429,49 @@ const majorityElement = function (nums) {
 // };
 
 const maxProfit = function (prices) {
-  let smallestElement = prices[0]
+  let smallestElement = prices[0];
 
-  let difference = 0
-  for(let i=0;i<prices.length;i++){
-    if(prices[i]<smallestElement){
-      smallestElement= prices[i]
+  let difference = 0;
+  for (let i = 0; i < prices.length; i++) {
+    if (prices[i] < smallestElement) {
+      smallestElement = prices[i];
     }
-    if(prices[i]-smallestElement> 0){
-      difference = Math.max(difference,prices[i]-smallestElement)
+    if (prices[i] - smallestElement > 0) {
+      difference = Math.max(difference, prices[i] - smallestElement);
     }
   }
-  return difference
+  return difference;
 };
 
 // console.log(maxProfit([7, 6, 4, 3, 1]));
-console.log(maxProfit([7, 1, 5, 3, 6, 4]));
+// console.log(maxProfit([7, 1, 5, 3, 6, 4]));
+
+// Missing And Repeating
+const missingAndRepeatingNumber = (arr) => {
+  let sumOfArr = 0;
+  let sumOfSquareArr = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sumOfArr += arr[i];
+    sumOfSquareArr += arr[i] * arr[i];
+  }
+
+  const sumOfN = (arr.length * (arr.length + 1)) / 2;
+
+  const sumOfSquareOfDigits =
+    (arr.length * (arr.length + 1) * (2 * arr.length + 1)) / 6;
+
+  const differenceOfSum = sumOfN - sumOfArr;
+  const differenceOfSquare = sumOfSquareOfDigits - sumOfSquareArr;
+
+  const sumOfMissingAndRepeatingNumbers = differenceOfSquare / differenceOfSum;
+  
+  const missingNumber = Math.round((sumOfMissingAndRepeatingNumbers + differenceOfSum) / 2);
+  const repeatingNumber = missingNumber - differenceOfSum;
+
+  return [repeatingNumber, missingNumber];
+};
+
+const arr = [1, 3, 3];
+
+console.log(missingAndRepeatingNumber());
