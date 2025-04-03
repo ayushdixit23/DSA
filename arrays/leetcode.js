@@ -233,7 +233,7 @@ const longestConsecutiveSequence = () => {
   if (nums.length === 0) {
     return 0;
   }
-  
+
   nums.sort((a, b) => a - b);
 
   let count = 1;
@@ -255,7 +255,7 @@ const longestConsecutiveSequence = () => {
 
 const nums = [100, 4, 200, 1, 3, 2];
 
-console.log(longestConsecutiveSequence());
+// console.log(longestConsecutiveSequence());
 
 const maxProduct = function () {
   let leftProduct = 1;
@@ -286,3 +286,25 @@ const maxProduct = function () {
 // const nums = [2, 3, -2, 4];
 
 // console.log(maxProduct());
+
+// Array Leaders
+const leadersArray = () => {
+  const lead = [];
+  const lastElement = a[a.length - 1];
+  lead.push(lastElement);
+  let largestElement = lastElement;
+  for (let i = a.length - 2; i >= 0; i--) {
+    largestElement = Math.max(largestElement, a[i]);
+    if (a[i] >= largestElement) {
+      lead.push(a[i]);
+    }
+  }
+  return lead.reverse();
+};
+
+// const a = [10, 4, 2, 4, 1];
+// const a = [30, 10, 10, 5];
+const a = [16, 17, 4, 3, 5, 2];
+
+// console.log(leadersArray());
+

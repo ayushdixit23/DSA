@@ -173,45 +173,6 @@ const reverseRowOfMatrix = () => {
 
 // console.log(reverseRowOfMatrix())
 
-// Rotate a Matrix 90° Clockwise
-const rotateMatrixClockWise = () => {
-  const cache = new Map();
-  for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-      if (i == j) {
-        continue;
-      } else {
-        if (!cache.has(i + j)) {
-          const temp = matrix[i][j];
-          matrix[i][j] = matrix[j][i];
-          matrix[j][i] = temp;
-
-          cache.set(i + j, true);
-        } else {
-          continue;
-        }
-      }
-    }
-  }
-
-  for (let i = 0; i < matrix.length; i++) {
-    let start = 0;
-    let end = matrix[i].length - 1;
-
-    while (start <= end) {
-      const temp = matrix[i][start];
-      matrix[i][start] = matrix[i][end];
-      matrix[i][end] = temp;
-      start++;
-      end--;
-    }
-  }
-
-  return matrix;
-};
-
-// console.log(rotateMatrixClockWise());
-
 // Find the Diagonal Sum
 const diagonalSum = () => {
   let sum = 0;
@@ -348,10 +309,67 @@ const spiralOrder = () => {
   return arr;
 };
 
+// console.log(spiralOrder());
+
+// Rotate a Matrix 90° Clockwise
+const rotateMatrixClockWise = function () {
+  const recursiveSwapping = (matrix, n, start, end) => {
+    if (start === end) {
+      return;
+    }
+
+    for (let i = start; i <= end; i++) {
+      if (start != end) {
+        const temp = matrix[start][i];
+        matrix[start][i] = matrix[i][start];
+        matrix[i][start] = temp;
+      }
+    }
+
+    start = start + 1;
+    recursiveSwapping(matrix, matrix.length, start, matrix.length - 1);
+  };
+
+  recursiveSwapping(matrix, matrix.length, 0, matrix.length - 1);
+
+  for (let i = 0; i < matrix.length; i++) {
+    let start = 0;
+    let end = matrix[i].length - 1;
+
+    while (start <= end) {
+      const temp = matrix[i][start];
+      matrix[i][start] = matrix[i][end];
+      matrix[i][end] = temp;
+      start++;
+      end--;
+    }
+  }
+
+  return matrix;
+};
+
+// const matrix = [
+//   [5, 1, 9, 11],
+//   [2, 4, 8, 10],
+//   [13, 3, 6, 7],
+//   [15, 14, 12, 16],
+// ];
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// console.log(rotateMatrixClockWise());
+
 const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
+  [1, 1, 1],
+  [1, 1, 1],
+  [0, 1, 1],
 ];
 
-// console.log(spiralOrder());
+// const matrix = [
+//   [0, 1, 2, 0],
+//   [3, 4, 5, 2],
+//   [1, 3, 1, 5],
+// ];
