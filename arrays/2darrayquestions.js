@@ -373,3 +373,26 @@ const matrix = [
 //   [3, 4, 5, 2],
 //   [1, 3, 1, 5],
 // ];
+
+const rearrangeArray = function () {
+  let positive=[]
+  let negative=[]
+  for (let i = 0; i < nums.length; i++) {
+    if(nums[i]<0){
+      negative.push(nums[i])
+    }else{
+      positive.push(nums[i])
+    }
+  }
+
+  const arr = []
+  for(let i=0;i<positive.length;i++){
+    arr.push(positive[i])
+    arr.push(negative[i])
+  }
+
+  return arr
+};
+
+const nums = [3, 1, -2, -5, 2, -4];
+console.log(rearrangeArray())

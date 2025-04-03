@@ -400,17 +400,20 @@ const majorityElement = function (nums) {
       object[nums[i]]++;
     }
   }
+  const arr=[]
 
   for (let value of Object.keys(object)) {
-    if (object[value] > Math.floor(nums.length / 2)) {
-      return value;
+    if (object[value] > Math.floor(nums.length / 3)) {
+   arr.push(value)
     }
   }
+
+  return arr
 };
 
-// const nums = [3,2,3]
+const nums = [3,2,3]
 
-// console.log(majorityElement(nums))
+console.log(majorityElement(nums))
 
 // const maxProfit = function (prices) {
 //   let outerDiffernce = 0
@@ -474,4 +477,4 @@ const missingAndRepeatingNumber = (arr) => {
 
 const arr = [1, 3, 3];
 
-console.log(missingAndRepeatingNumber());
+// console.log(missingAndRepeatingNumber());
