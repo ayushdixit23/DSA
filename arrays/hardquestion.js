@@ -204,3 +204,4 @@ const searchRange = function () {
 // const target = 8;
 
 // console.log(searchRange());
+
