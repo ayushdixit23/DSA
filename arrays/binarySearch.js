@@ -146,4 +146,67 @@ const searchMatrix = function () {
 const matrix = [[-10], [-7], [-5]];
 const target = -10;
 
-console.log(searchMatrix());
+// console.log(searchMatrix());
+
+// brute force
+// const findPeakGrid = function () {
+//   const m = mat.length;
+//   const n = mat[0].length;
+
+//   for (let i = 0; i < m; i++) {
+//     for (let j = 0; j < n; j++) {
+//       const top = i > 0 ? mat[i - 1][j] : -1;
+//       const bottom = i < m - 1 ? mat[i + 1][j] : -1;
+//       const left = j > 0 ? mat[i][j - 1] : -1;
+//       const right = j < n - 1 ? mat[i][j + 1] : -1;
+
+//       if (
+//         mat[i][j] > top &&
+//         mat[i][j] > bottom &&
+//         mat[i][j] > left &&
+//         mat[i][j] > right
+//       ) {
+//         return [i, j];
+//       }
+//     }
+//   }
+// };
+
+// const findPeakGrid = function () {
+//   const m = mat.length;
+//   for (let i = 0; i < m; i++) {
+//     let start = 0;
+//     let end = mat[i].length - 1;
+
+//     while (start <= end) {
+//       let mid = Math.floor((start + end) / 2);
+
+//       const top = i > 0 ? mat[i - 1][mid] : -1;
+//       const bottom = i < m - 1 ? mat[i + 1][mid] : -1;
+//       const left = mid > 0 ? mat[i][mid - 1] : -1;
+//       const right = mid < end - 1 ? mat[i][mid + 1] : -1;
+
+//       if (
+//         mat[i][mid] > top &&
+//         mat[i][mid] > bottom &&
+//         mat[i][mid] > left &&
+//         mat[i][mid] > right
+//       ) {
+//         return [i, mid];
+//       } else if (
+//         mat[i][mid - 1] < mat[i][mid] &&
+//         mat[i][mid] < mat[i][mid + 1]
+//       ) {
+//         start = mid + 1;
+//       } else {
+//         end = mid - 1;
+//       }
+//     }
+//   }
+// };
+
+
+const mat = [[70,50,40,30,20],[100,1,2,3,4]]
+
+
+console.log(findPeakGrid());
