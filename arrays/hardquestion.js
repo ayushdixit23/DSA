@@ -262,12 +262,12 @@ function countFreq() {
 
   while (start <= end) {
     let mid = Math.floor((start + end) / 2);
-    if ((arr[mid] === target)) {
+    if (arr[mid] === target) {
       for (let i = mid; arr[i] === arr[mid] && i >= 0; i--) {
         count++;
       }
 
-      for (let i = mid+1 ; arr[i] === arr[mid] && i < arr.length; i++) {
+      for (let i = mid + 1; arr[i] === arr[mid] && i < arr.length; i++) {
         count++;
       }
 
@@ -284,4 +284,89 @@ function countFreq() {
 const arr = [1, 1, 2, 2, 2, 2, 3],
   target = 1;
 
-console.log(countFreq());
+// console.log(countFreq());
+
+// const maxSlidingWindow = function (nums, k) {
+//   console.log(nums);
+//   if (nums.length == 1 && k == 1) {
+//       return nums;
+//   }
+//   const result = []
+//   for (let i = 0; i < nums.length - k + 1; i++) {
+//       const arr = nums.slice(i, i + k);
+//       let max = arr[0]
+//       for (let j = 1; j < arr.length; j++) {
+//           if (arr[j] > max) {
+//               max = arr[j]
+//           }
+//       }
+//       result.push(max)
+//   }
+
+//   return result
+// };
+
+const maxSlidingWindow = function (nums, k) {
+  if (nums.length === 0 || k === 0) {
+    return [];
+  }
+
+  const result = [];
+  const deque = [];
+  for (let i = 0; i < nums.length; i++) {
+    if (deque.length && deque[0] < i - k + 1) {
+      deque.shift();
+    }
+    while (deque.length && nums[deque[deque.length - 1]] <= nums[i]) {
+      deque.pop();
+    }
+    deque.push(i);
+    if (i >= k - 1) {
+      result.push(nums[deque[0]]);
+    }
+  }
+
+  return result;
+};
+
+// const nums = [1,3,-1,-3,5,3,6,7], k = 3
+
+// console.log(maxSlidingWindow())
+
+function maximumSubarraySum() {
+  const prefixMap = new Map();
+  let prefixSum = 0;
+  let maxSum = -Infinity;
+
+  for (const num of nums) {
+      const target1 = num + k;
+      const target2 = num - k;
+
+      if (prefixMap.has(target1)) {
+          const currentSum = prefixSum + num - prefixMap.get(target1);
+          if (currentSum > maxSum) {
+              maxSum = currentSum;
+          }
+      }
+
+      if (prefixMap.has(target2)) {
+          const currentSum = prefixSum + num - prefixMap.get(target2);
+          if (currentSum > maxSum) {
+              maxSum = currentSum;
+          }
+      }
+      
+      if (!prefixMap.has(num) || prefixSum < prefixMap.get(num)) {
+          prefixMap.set(num, prefixSum);
+      }
+
+      prefixSum += num;
+  }
+
+  return maxSum !== -Infinity ? maxSum : 0;
+}
+
+const nums = [1, 2, 3, 4, 5, 6],
+  k = 1;
+
+console.log(maximumSubarraySum());
