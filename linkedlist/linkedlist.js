@@ -264,4 +264,41 @@ export class LinkedList {
       count++;
     }
   }
+
+  getAt(index) {
+    if (index < 0 || index >= this.size) {
+      console.log("Index out of bounds");
+      return undefined;
+    }
+
+    let tempHead = this.head;
+    let localIndex = 0;
+    while (localIndex < index) {
+      tempHead = tempHead.next;
+      localIndex++;
+    }
+    return tempHead.value;
+  }
+
+  setAt(index, val) {
+    if (index < 0 || index >= this.size) {
+      console.log("Index out of bounds");
+      return;
+    }
+
+    if (this.head === null) {
+      console.log("List is empty");
+      return;
+    }
+
+    let tempHead = this.head;
+    let localIndex = 0;
+
+    while (localIndex < index) {
+      tempHead = tempHead.next;
+      localIndex++;
+    }
+
+    tempHead.value = val;
+  }
 }
