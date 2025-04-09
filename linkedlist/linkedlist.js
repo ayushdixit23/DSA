@@ -1,4 +1,4 @@
-class Node {
+export class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
@@ -234,9 +234,9 @@ export class LinkedList {
         return node;
       }
       const newHead = reverseRecursively(node.next);
-      node.next.next = node; 
-      node.next = null;  
-      return newHead; 
+      node.next.next = node;
+      node.next = null;
+      return newHead;
     };
     this.head = reverseRecursively(this.head);
   }
@@ -253,10 +253,10 @@ export class LinkedList {
 
     while (tempHead !== null) {
       if (count === position) {
-        cycleNode = tempHead; 
+        cycleNode = tempHead;
       }
       if (tempHead.next === null) {
-        tempHead.next = cycleNode; 
+        tempHead.next = cycleNode;
         console.log(`Cycle created at node ${cycleNode.value}`);
         return;
       }

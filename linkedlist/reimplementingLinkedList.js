@@ -174,6 +174,42 @@ class LinkedList {
 
     tempHead.value = val;
   }
+
+  reverse() {
+    if (this.size < 2) {
+      return;
+    }
+
+    let currentNode = this.head;
+    let previousNode = null;
+    let nextNode = this.head.next;
+
+    while (currentNode != null) {
+      currentNode.next = previousNode;
+      previousNode = currentNode;
+      currentNode = nextNode;
+
+      if (nextNode != null) {
+        nextNode = nextNode.next;
+      }
+    }
+
+    this.head = previousNode;
+  }
+
+  reverseUsingRecursion() {
+    const reverseRecursively = (node) => {
+      if(node===null||node.next===null){
+        return node
+      }
+      const newHead = reverseRecursively(node.next)
+      node.next.next = node
+      node.next = null
+      return newHead
+    };
+
+    this.head = reverseRecursively(this.head)
+  }
 }
 
 const linkedList = new LinkedList();
@@ -181,23 +217,10 @@ const linkedList = new LinkedList();
 linkedList.add(10);
 linkedList.add(14);
 linkedList.add(13);
-linkedList.insertAt(1, 15);
-
-// linkedList.addAtFirst(20)
-// console.log( linkedList.length())
-
-// linkedList.display();
-// linkedList.clear()
-linkedList.display();
-// console.log(linkedList.size)
-// linkedList.remove()
-// console.log(linkedList.size)
-
-// linkedList.removeAt(1);
-console.log(linkedList.getAt(1));
 
 linkedList.display();
 
-linkedList.setAt(1, 99);
+// linkedList.reverse();
+linkedList.reverseUsingRecursion()
 
-console.log(linkedList.toArray());
+linkedList.display();
