@@ -159,6 +159,39 @@ export class DoublyLinkedList {
     }
     return false;
   }
+
+  reverse(){
+    let tempHead = this.head;
+    let temp = null;
+  
+    while (tempHead !== null) {
+      temp = tempHead.previous;
+      tempHead.previous = tempHead.next;
+      tempHead.next = temp;
+      tempHead = tempHead.previous;
+    }
+  
+    temp = this.head;
+    this.head = this.tail;
+    this.tail = temp;
+  }
+
+  reverseRecursive(node = this.head) {
+    if (!node) return;
+
+    let temp = node.next;
+    node.next = node.previous;
+    node.previous = temp;
+  
+    if (!node.previous) {
+      this.tail = this.head;
+      this.head = node;
+      return;
+    }
+  
+    this.reverseRecursive(node.previous);
+  }
+  
 }
 
 const doublyLinkedList = new DoublyLinkedList();
@@ -168,7 +201,9 @@ doublyLinkedList.add(42);
 doublyLinkedList.add(45);
 doublyLinkedList.add(39);
 
-doublyLinkedList.insertBefore(42,100)
+// doublyLinkedList.display()
+// doublyLinkedList.reverse()
+// doublyLinkedList.display()
+// doublyLinkedList.reverseRecursive()
 
 doublyLinkedList.display()
-doublyLinkedList.displayFromRight()
