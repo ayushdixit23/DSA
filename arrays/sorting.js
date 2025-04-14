@@ -1,4 +1,4 @@
-const arr = [5, 4, 3, 2, 1];
+// const arr = [5, 4, 3, 2, 1];
 // const arr = [3, 5, 2, 1, 4];
 // const arr= [1,2,3,4,5]
 
@@ -75,7 +75,7 @@ const cyclicSort = () => {
 // cyclicSort();
 // console.log(arr);
 
-const myArr = [4, 2, 2, 5, 3, 3, 1];
+// const myArr = [4, 2, 2, 5, 3, 3, 1];
 
 // Counting Sort
 const countingSort = () => {
@@ -122,33 +122,45 @@ const quickSort = (arr) => {
 
 // console.log(quickSort(arr));
 
-function merge(left, right) {
-  let sortedArray = [];
-  let i = 0,
-    j = 0;
+const merge = (left, right) => {
+  let i = 0;
+  let j = 0;
+  let sortedArr = [];
 
   while (i < left.length && j < right.length) {
     if (left[i] < right[j]) {
-      sortedArray.push(left[i]);
+      sortedArr.push(left[i]);
       i++;
     } else {
-      sortedArray.push(right[j]);
+      sortedArr.push(right[j]);
       j++;
     }
   }
 
-  return [...sortedArray, ...left.slice(i), ...right.slice(j)];
-}
+  while (i < left.length) {
+    sortedArr.push(left[i]);
+    i++;
+  }
 
-// Merge Sort
+  while (j < right.length) {
+    sortedArr.push(right[j]);
+    j++;
+  }
+
+  return sortedArr;
+};
+
 const mergeSort = (arr) => {
-  if (arr.length <= 1) return arr;
+  if (arr.length <= 1) {
+    return arr;
+  }
+  let mid = Math.floor(arr.length / 2);
 
-  const mid = Math.floor(arr.length / 2);
   const left = mergeSort(arr.slice(0, mid));
   const right = mergeSort(arr.slice(mid));
 
   return merge(left, right);
 };
 
-// console.log(mergeSort(arr));
+const arr = [5, 3, 8, 10, 1, 2, 7];
+console.log(mergeSort(arr));
