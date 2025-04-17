@@ -1,73 +1,106 @@
 class Node {
-    constructor(key, value) {
-      this.key = key;
-      this.value = value;
-      this.prev = null;
-      this.next = null;
-    }
+  constructor(key, value, previous, next) {
+    this.key = key;
+    this.previous = previous ? previous : null;
+    this.value = value;
+    this.next = next ? next : null;
   }
-  
-  class LRUCache {
-    constructor(capacity) {
-      this.capacity = capacity;
-      this.map = new Map();
-      this.head = new Node(0, 0);
-      this.tail = new Node(0, 0);
-      this.head.next = this.tail;
-      this.tail.prev = this.head;
-    }
-  
-    remove(node) {
-      node.prev.next = node.next;
-      node.next.prev = node.prev;
-    }
-  
-    insertAtFront(node) {
-      node.next = this.head.next;
-      node.prev = this.head;
-      this.head.next.prev = node;
-      this.head.next = node;
-    }
-  
-    get(key) {
-      if (!this.map.has(key)) return -1;
-  
-      let node = this.map.get(key);
-      this.remove(node);
-      this.insertAtFront(node);
-  
-      return node.value;
-    }
-  
-    put(key, value) {
-      if (this.map.has(key)) {
-        let node = this.map.get(key);
-        node.value = value;
-        this.remove(node);
-        this.insertAtFront(node);
-      } else {
-        if (this.map.size >= this.capacity) {
-          let lruNode = this.tail.prev;
-          this.remove(lruNode);
-          this.map.delete(lruNode.key);
-        }
-  
-        let newNode = new Node(key, value);
-        this.map.set(key, newNode);
-        this.insertAtFront(newNode);
+}
+
+class LRUCache {
+  constructor(capacity) {
+    this.map = new Map();
+    this.capacity = capacity;
+    this.head = null;
+    this.tail = null;
+  }
+
+  removeNode(node) {
+    if (!node) return;
+    if (node.previous) {
+      node.previous.next = node.next;
+    } else {
+      this.head = node.next;
+      if (this.head) { 
+        this.head.previous = null;
       }
     }
-  }
+    if (node.next) {
+      node.next.previous = node.previous;
+    } else {
+      this.tail = node.previous;
+      if (this.tail) {
+        this.tail.next = null;
+      }
+    }
   
+    node.next = null;
+    node.previous = null;
+  }
 
-const cache = new LRUCache(3);
+  addNodeToTail(node) {
+    if (this.tail) {
+      this.tail.next = node;
+      node.previous = this.tail;
+    }
 
-cache.put(1, 1);
-cache.put(2, 2);
-console.log(cache.get(1)); 
-cache.put(3, 3);
-console.log(cache.get(2)); 
-cache.put(4, 4);
-console.log(cache.get(1));
-console.log(cache.get(3));
-console.log(cache.get(4));
+    this.tail = node;
+
+    if (this.head == null) {
+      this.head = node;
+    }
+  }
+
+  get(key) {
+    if (this.map.has(key)) {
+      const node = this.map.get(key);
+      this.removeNode(node);
+      this.addNodeToTail(node);
+      return node.value;
+    } else {
+      return -1;
+    }
+  }
+
+  put(key, value) {
+    const node = new Node(key, value);
+    if (this.map.has(key)) {
+      const existingNode = this.map.get(key);
+      existingNode.value = value;
+      this.removeNode(existingNode);
+      this.addNodeToTail(existingNode);
+    } else {
+      if (this.map.size >= this.capacity) {
+        const existingNode = this.head;
+        this.map.delete(existingNode.key);
+        this.removeNode(this.head);
+      }
+      this.addNodeToTail(node);
+      this.map.set(key, node);
+    }
+  }
+
+  display() {
+    let tempHead = this.head;
+    console.log(`Treversal started`);
+
+    while (tempHead != null) {
+      console.log(`${tempHead.value} is present`);
+      tempHead = tempHead.next;
+    }
+
+    console.log(`Treversal ended`);
+  }
+
+  displayFromRight() {
+    let tempHead = this.tail;
+    console.log(`Treversal started`);
+
+    while (tempHead != null) {
+      console.log(`${tempHead.value} is present`);
+      tempHead = tempHead.previous;
+    }
+
+    console.log(`Treversal ended`);
+  }
+}
