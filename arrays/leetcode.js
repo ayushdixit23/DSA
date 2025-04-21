@@ -308,3 +308,46 @@ const a = [16, 17, 4, 3, 5, 2];
 
 // console.log(leadersArray());
 
+let grid = [
+  [1, 3, 1],
+  [1, 5, 1],
+  [4, 2, 1],
+];
+
+// Minimum Path Sum
+
+// brute force solution
+const minPathSum = function () {
+  let rows = 0;
+  let column = 0;
+  let minimumSum = Infinity;
+
+  const recursionTraversal = (rows, column, grid, sum) => {
+    if (rows > grid.length - 1) {
+      return sum;
+    }
+
+    if (column > grid[0].length - 1) {
+      return sum;
+    }
+
+    if (rows === grid.length - 1 && column === grid[0].length - 1) {
+      sum += grid[rows][column];
+      minimumSum = Math.min(minimumSum, sum);
+      return;
+    }
+    sum += grid[rows][column];
+
+    recursionTraversal(rows + 1, column, grid, sum);
+
+    recursionTraversal(rows, column + 1, grid, sum);
+    return sum;
+  };
+
+  recursionTraversal(rows, column, grid, 0);
+
+  return minimumSum;
+};
+
+console.log(minPathSum())
+
