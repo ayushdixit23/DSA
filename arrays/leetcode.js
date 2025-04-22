@@ -349,5 +349,24 @@ const minPathSum = function () {
   return minimumSum;
 };
 
-console.log(minPathSum())
+// console.log(minPathSum())
 
+const n = 19;
+const isHappy = function (n, set = new Set()) {
+  if (n === 1) return true;
+  if (set.has(n)) return false;
+
+  set.add(n);
+
+  let sum = 0;
+  while (n !== 0) {
+    const remainder = n % 10;
+    sum += remainder * remainder;
+    n = Math.floor(n / 10);
+  }
+
+  return isHappy(sum, set);
+};
+
+
+// console.log(isHappy(n));
