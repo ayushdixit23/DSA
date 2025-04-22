@@ -253,7 +253,7 @@ const longestConsecutiveSequence = () => {
   return Math.max(maximumCount, count);
 };
 
-const nums = [100, 4, 200, 1, 3, 2];
+// const nums = [100, 4, 200, 1, 3, 2];
 
 // console.log(longestConsecutiveSequence());
 
@@ -368,5 +368,31 @@ const isHappy = function (n, set = new Set()) {
   return isHappy(sum, set);
 };
 
-
 // console.log(isHappy(n));
+
+// 3Sum
+const threeSum = function () {
+  let arr = [];
+  const set = new Set();
+  for (let i = 0; i < nums.length; i++) {
+    let map = new Map();
+    for (let j = i + 1; j < nums.length; j++) {
+      let search = -(nums[i] + nums[j]);
+      if (map.has(search)) {
+        let localArr = [nums[i], nums[j], nums[map.get(search)]];
+        localArr.sort((a, b) => a - b);
+        let string = JSON.stringify(localArr);
+        if (!set.has(string)) {
+          set.add(string);
+          arr.push(localArr);
+        }
+      } else {
+        map.set(nums[j], j);
+      }
+    }
+  }
+  return arr;
+};
+
+const nums = [-1, 0, 1, 2, -1, -4];
+console.log(threeSum());
