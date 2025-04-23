@@ -8,13 +8,13 @@ const stack = new Stack();
 
 // logFunctionOutput(() => stack.isEmpty());
 
-// stack.push(2);
-// stack.push(3);
-// stack.push(5);
-// stack.pop();
-// stack.push(12);
-// stack.removeAtIndex(2)
-// stack.push(20);
+stack.push(2);
+stack.push(3);
+stack.push(5);
+stack.pop();
+stack.push(12);
+stack.removeAtIndex(2)
+stack.push(20);
 
 
 // stack.push(3);
@@ -22,9 +22,10 @@ const stack = new Stack();
 // stack.push(4);
 // stack.push(2);
 
-// logFunctionOutput(() => stack.peek());
-// logFunctionOutput(() => stack.size());
-// logFunctionOutput(() => stack.isEmpty());
+logFunctionOutput(() => stack.peek());
+logFunctionOutput(() => stack.size());
+logFunctionOutput(() => stack.isEmpty());
+stack.display()
 
 // Reverse string using stack
 const reverseString = (string) => {

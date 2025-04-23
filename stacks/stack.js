@@ -1,43 +1,44 @@
 export class Stack {
   constructor() {
-    this.items = [];
+    this.stack = [];
   }
 
   push(value) {
-    this.items.push(value);
+    this.stack.push(value);
   }
 
   pop() {
-    const element = this.items.pop();
-    return element;
+    return this.stack.pop();
   }
 
   peek() {
-    const lastElement = this.items[this.items.length - 1];
-    return lastElement;
+    return this.stack[this.stack.length - 1];
   }
 
   isEmpty() {
-    return this.items.length === 0;
+    return this.stack.length === 0;
   }
 
   size() {
-    return this.items.length;
+    return this.stack.length;
   }
 
   display() {
-    for (let i = 0; i < this.items.length; i++) {
-      console.log(`Element at ${i} is ${this.items[i]}`);
+    for (let i = this.stack.length - 1; i >= 0; i--) {
+      console.log(this.stack[i]);
     }
   }
 
   removeAtIndex(index) {
-    if (index >= 0 && index < this.items.length) {
-      this.items.splice(index, 1);
+    if (index < 0 || index >= this.stack.length) {
+      throw new Error("Invalid index");
+    }
+
+    const element = this.stack.splice(index, 1);
+    if (element.length > 0) {
+      return element[0];
     } else {
-      console.log("Index out of bounds");
+      return null;
     }
   }
 }
-
-
