@@ -13,19 +13,18 @@ stack.push(3);
 stack.push(5);
 stack.pop();
 stack.push(12);
-stack.removeAtIndex(2)
+stack.removeAtIndex(2);
 stack.push(20);
-
 
 // stack.push(3);
 // stack.push(1);
 // stack.push(4);
 // stack.push(2);
 
-logFunctionOutput(() => stack.peek());
-logFunctionOutput(() => stack.size());
-logFunctionOutput(() => stack.isEmpty());
-stack.display()
+// logFunctionOutput(() => stack.peek());
+// logFunctionOutput(() => stack.size());
+// logFunctionOutput(() => stack.isEmpty());
+// stack.display();
 
 // Reverse string using stack
 const reverseString = (string) => {
@@ -95,30 +94,47 @@ const sortedStack = () => {
 
   newStack.display();
 };
-
 // stack.display()
 // sortedStack();
 
-// Next Greater Element
-const nextGreaterElement = (arr) => {
-    const result = new Array(arr.length).fill(-1); 
-  
-    for (let i = arr.length - 1; i >= 0; i--) {
-      while (!stack.isEmpty() && stack.peek() <= arr[i]) {
-        stack.pop();
-      }
-  
-      if (!stack.isEmpty()) {
-        result[i] = stack.peek();
-      }
-  
-      stack.push(arr[i]);
+const nextGreaterElement = () => {
+  const result = [];
+  const stack = [];
+
+  for (let i = arr.length - 1; i >= 0; i--) {
+    const element = arr[i];
+    while (stack.length !== 0 && element >= stack[stack.length - 1]) {
+      stack.pop();
     }
-  
-    return result;
-  };
-  
-//   console.log(nextGreaterElement([4, 5, 2, 10, 8])); 
-//   console.log(nextGreaterElement([1, 3, 2, 4]));
-  
-  
+    if (stack.length === 0) {
+      result.push(-1);
+    } else {
+      result.push(stack[stack.length - 1]);
+    }
+    stack.push(element);
+  }
+  return result.reverse();
+};
+// const arr = [4, 5, 2, 25, 7, 8];
+// console.log(nextGreaterElement());
+
+const dailyTemperatures = () => {
+  const stack = [];
+  const result = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    while (stack.length !== 0 && arr[i] >= arr[stack[stack.length - 1]]) {
+      stack.pop();
+    }
+    if (stack.length == 0) {
+      result.push(0);
+    } else {
+      const index = stack[stack.length - 1] - i;
+      result.push(index);
+    }
+    stack.push(i);
+  }
+  return result.reverse();
+};
+
+const arr = [73, 74, 75, 71, 69, 72, 76, 73];
+console.log(dailyTemperatures());
