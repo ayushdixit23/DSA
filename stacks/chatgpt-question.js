@@ -30,6 +30,7 @@ const isValid = function () {
   return stack.isEmpty() ? true : false
 };
 
-const s = "((";
+// const s = "((";
 
-console.log(isValid())
+// console.log(isValid())
+
