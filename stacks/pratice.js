@@ -137,4 +137,22 @@ const dailyTemperatures = () => {
 };
 
 const arr = [73, 74, 75, 71, 69, 72, 76, 73];
-console.log(dailyTemperatures());
+// console.log(dailyTemperatures());
+const makeGood = function(s) {
+  const stack = [];
+  for (let i = 0; i < s.length; i++) {
+      const curr = s[i];
+      if (stack.length > 0) {
+          const last = stack[stack.length - 1];
+          if (last !== curr && last.toLowerCase() === curr.toLowerCase()) {
+              stack.pop();
+              continue;
+          }
+      }
+      stack.push(curr);
+  }
+  
+  return stack.join('');
+};
+
+console.log(makeGood("leEeetcode"))
