@@ -157,6 +157,7 @@ function infixToPostfixWithParenthesis() {
 
   for (let i = 0; i < expression.length; i++) {
     const element = expression[i];
+    if (element === " ") continue;
     if (element === "(") {
       operatorStack.push(element);
       continue;
