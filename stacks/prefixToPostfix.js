@@ -1,10 +1,10 @@
 import { Stack } from "./stack.js";
 
-// Postfix ➔ Prefix Conversion
-const expression = "AB+C*";
-// const expression = "ABC*+";
+// Prefix ➔ Postfix Conversion
+// const expression = "*+AB-CD";
+const expression = "+*AB/CD";
 
-function postfixToPrefix() {
+function prefixToInfix() {
   const isElementOperator = (element) => {
     if (
       element === "+" ||
@@ -18,20 +18,18 @@ function postfixToPrefix() {
   };
 
   const stack = new Stack();
-  for (let i = 0; i < expression.length; i++) {
+  for (let i = expression.length - 1; i >= 0; i--) {
     const element = expression[i];
-    if (element === " ") {
-      continue;
-    }
+    if (element === " ") continue;
     if (!isElementOperator(element)) {
       stack.push(element);
     } else {
-      const value1 = stack.pop();
-      const value2 = stack.pop();
-      stack.push(element + value2 + value1);
+      const left = stack.pop();
+      const right = stack.pop();
+      stack.push(left + right + element);
     }
   }
   return stack.peek();
 }
 
-console.log(postfixToPrefix());
+console.log(prefixToInfix());
