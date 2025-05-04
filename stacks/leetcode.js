@@ -1,4 +1,3 @@
-
 const calculate = function (s) {
   const numberStack = new Stack();
   const operatorStack = new Stack();
@@ -58,3 +57,31 @@ const calculate = function (s) {
 
   return numberStack.peek();
 };
+
+// Trapping Rain Water
+const trap = function () {
+  const prefixLeftMax = [];
+  const prefixRightMax = [];
+  const n = height.length;
+
+  prefixLeftMax[0] = height[0];
+  prefixRightMax[n - 1] = height[n - 1];
+
+  for (let i = 1, j = n - 2; i < n; i++, j--) {
+    prefixLeftMax[i] = Math.max(prefixLeftMax[i - 1], height[i]);
+    prefixRightMax[j] = Math.max(prefixRightMax[j + 1], height[j]);
+  }
+  let total = 0;
+
+  for (let i = 0; i < n; i++) {
+    const element = height[i];
+    if (element < prefixLeftMax[i] && element < prefixRightMax[i]) {
+      total += Math.min(prefixLeftMax[i], prefixRightMax[i]) - height[i];
+    }
+  }
+
+  return total;
+};
+
+const height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
+console.log(trap());
