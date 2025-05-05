@@ -1,46 +1,39 @@
 export class Queue {
   constructor() {
-    this.items = [];
+    this.queue = [];
   }
 
-  push(value) {
-    this.items.push(value);
+  enqueue(value) {
+    this.queue.push(value);
   }
 
-  pop() {
-    const element = this.items.shift();
-    return element;
-  }
-
-  display() {
-    for (let i = 0; i < this.items.length; i++) {
-      console.log(`Element at ${i} is ${this.items[i]}`);
+  dequeue() {
+    if (this.queue.length > 0) {
+      return this.queue.shift();
+    } else {
+      return null;
     }
   }
 
   display() {
-    for (let i = 0; i < this.items.length; i++) {
-      console.log(`Element at ${i} is ${this.items[i]}`);
+    for (let i = 0; i < this.queue.length; i++) {
+      console.log(this.queue[i]);
+    }
+  }
+
+  isEmpty() {
+    return this.queue.length === 0;
+  }
+
+  peek() {
+    if (this.queue.length > 0) {
+      return this.queue[0];
+    } else {
+      return null;
     }
   }
 
   size() {
-    return this.items.length;
-  }
-
-  isEmpty() {
-    return this.items.length === 0;
-  }
-
-  peek() {
-    return this.items[0];
-  }
-
-  removeAtIndex(index) {
-    if (index >= 0 && index < this.items.length) {
-        this.items.splice(index,1)
-    }else{
-        console.log("Index out of bounds");
-    }
+    return this.queue.length;
   }
 }
