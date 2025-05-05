@@ -1,5 +1,7 @@
 import { Queue } from "./queue.js";
-const queue = new Queue();
+import { QueueLL } from "./queuell.js";
+// const queue = new Queue();
+const queue = new QueueLL()
 
 const reverseQueue = (queue) => {
   if (queue.size() == 1) {
@@ -79,3 +81,6 @@ function interleaveQueue() {
     queue.enqueue(queue.dequeue());     
   }
 }
+queue.display()
+
+console.log(queue.dequeue())
