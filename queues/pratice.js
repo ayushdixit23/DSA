@@ -1,7 +1,7 @@
 import { Queue } from "./queue.js";
 import { QueueLL } from "./queuell.js";
-// const queue = new Queue();
-const queue = new QueueLL()
+const queue = new Queue(2);
+// const queue = new QueueLL()
 
 const reverseQueue = (queue) => {
   if (queue.size() == 1) {
