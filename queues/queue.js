@@ -40,42 +40,36 @@
 
 export class Queue {
   constructor(capacity) {
-    this.queue = Array(capacity + 1).fill(null);
+    this.queue = Array(capacity).fill(undefined);
+    this.capacity = capacity;
     this.front = 0;
     this.rear = 0;
-    this.capacity = capacity + 1;
   }
 
   enqueue(value) {
-    if ((this.rear + 1) % this.capacity === this.front) {
-      console.log("Queue is full");
+    if (this.rear >= this.capacity) {
+      console.log(`Queue is full`);
+      return false;
     } else {
       this.queue[this.rear] = value;
-      this.rear = (this.rear + 1) % this.capacity;
+      this.rear++;
+      return true;
     }
   }
 
   dequeue() {
-    if (this.isEmpty()) {
-      console.log("Queue is empty");
+    if (this.front === this.rear) {
+      console.log(`Queue is Empty`);
       return null;
     } else {
       const value = this.queue[this.front];
-      this.queue[this.front] = null;
-      this.front = (this.front + 1) % this.capacity;
+      this.queue[this.front] = undefined;
+      this.front++;
+      if (this.front === this.rear) {
+        this.front = 0;
+        this.rear = 0;
+      }
       return value;
-    }
-  }
-
-  display() {
-    if (this.isEmpty()) {
-      console.log("Queue is empty");
-      return;
-    }
-    let i = this.front;
-    while (i !== this.rear) {
-      console.log(this.queue[i]);
-      i = (i + 1) % this.capacity;
     }
   }
 
@@ -85,13 +79,19 @@ export class Queue {
 
   peek() {
     if (this.isEmpty()) {
-      console.log("Queue is empty");
       return null;
+    } else {
+      return this.queue[this.front];
     }
-    return this.queue[this.front];
+  }
+
+  display() {
+    for (let i = this.front; i < this.rear; i++) {
+      console.log(`Element at ${i} is ${this.queue[i]}`);
+    }
   }
 
   size() {
-    return (this.rear - this.front + this.capacity) % this.capacity;
+    return this.rear - this.front;
   }
 }

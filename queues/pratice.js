@@ -1,5 +1,5 @@
 import { Queue } from "./queue.js";
-import { QueueLL } from "./queuell.js";
+
 const queue = new Queue(2);
 // const queue = new QueueLL()
 
@@ -84,3 +84,31 @@ function interleaveQueue() {
 queue.display()
 
 console.log(queue.dequeue())
+
+const firstUniqChar = function (s) {
+  const map = new Map();
+  const queue = new Queue(s.length);
+
+  for (let i = 0; i < s.length; i++) {
+      const element = s[i];
+
+      if (map.has(element)) {
+          map.set(element, -1);
+      } else {
+          map.set(element, i);
+          queue.enqueue(i);
+      }
+  }
+
+  while (!queue.isEmpty()) {
+      const index = queue.peek();
+      const character = s[index];
+
+      if (map.get(character) !== -1) {
+          return index;
+      } else {
+          queue.dequeue();
+      }
+  }
+  return -1;
+};
