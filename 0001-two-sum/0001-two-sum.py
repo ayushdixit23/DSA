@@ -4,6 +4,5 @@ class Solution:
         for i in range(len(nums)):
             value = target - nums[i]
             if value in hash_map:
-                index = hash_map.get(value)
-                return [index, i]
+                return [hash_map[value], i]
             hash_map[nums[i]] = i
