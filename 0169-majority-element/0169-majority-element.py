@@ -9,9 +9,9 @@ class Solution:
             else:
                 hash_map[nums[i]] = 1
         majority = nums[0]
-        rounds = 1
+        rounds = 0
         for key, value in hash_map.items():
-            if value >= rounds:
+            if value > rounds:
                 majority = key
                 rounds = value
         return majority
