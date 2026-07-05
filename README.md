@@ -12,6 +12,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0283-move-zeroes) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
@@ -42,6 +43,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0283-move-zeroes) |
 ## Sorting
 |  |
@@ -52,6 +54,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
