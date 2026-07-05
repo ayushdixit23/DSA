@@ -8,7 +8,6 @@ class Solution:
                 hash_map[nums[i]] += 1
             else:
                 hash_map[nums[i]] = 1
-        print(hash_map)
         majority = nums[0]
         rounds = 1
         for key, value in hash_map.items():
