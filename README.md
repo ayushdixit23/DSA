@@ -11,6 +11,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0283-move-zeroes) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdixit23/DSA/tree/master/1480-running-sum-of-1d-array) |
@@ -21,6 +22,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ayushdixit23/DSA/tree/master/0001-two-sum) |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 ## Simulation
 |  |
 | ------- |
@@ -43,4 +45,17 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
