@@ -9,6 +9,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0001-two-sum](https://github.com/ayushdixit23/DSA/tree/master/0001-two-sum) |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
+| [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -17,4 +18,5 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
+| [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
