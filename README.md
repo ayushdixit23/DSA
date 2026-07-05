@@ -10,6 +10,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0001-two-sum](https://github.com/ayushdixit23/DSA/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [1480-running-sum-of-1d-array](https://github.com/ayushdixit23/DSA/tree/master/1480-running-sum-of-1d-array) |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
@@ -35,4 +36,9 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
