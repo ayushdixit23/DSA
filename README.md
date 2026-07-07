@@ -24,6 +24,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/ayushdixit23/DSA/tree/master/1991-find-the-middle-index-in-array) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -35,6 +36,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -49,6 +51,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0283-move-zeroes) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
 | ------- |
