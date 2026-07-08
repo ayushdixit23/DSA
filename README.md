@@ -32,6 +32,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0001-two-sum](https://github.com/ayushdixit23/DSA/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushdixit23/DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 ## Simulation
 |  |
@@ -60,6 +61,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushdixit23/DSA/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -87,4 +89,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayushdixit23/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
