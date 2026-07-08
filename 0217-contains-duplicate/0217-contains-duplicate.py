@@ -6,9 +6,10 @@ class Solution:
         hash_map = {}
 
         for i in range(n):
-            if nums[i] in hash_map:
+            element = nums[i]
+            if element in hash_map:
                 return True
             else:
-                hash_map[nums[i]] = True
+                hash_map[element] = True
 
         return False
