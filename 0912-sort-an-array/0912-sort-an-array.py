@@ -25,8 +25,8 @@ class Solution:
             nums[k] = temp_list[k - start]
 
     def merge_sort(self, nums, start, end):
-        if start == end:
-            return [nums[start]]
+        if start >= end:
+            return
 
         mid = (start + end) // 2
 
@@ -34,10 +34,11 @@ class Solution:
         self.merge_sort(nums, start=mid + 1, end=end)
 
         self.merge(nums, start, mid, end)
-        return nums
+        return
 
     def sortArray(self, nums: List[int]) -> List[int]:
         n = len(nums)
         if n == 0:
             return []
-        return self.merge_sort(nums, 0 ,n-1)
+        self.merge_sort(nums, 0 ,n-1)
+        return nums
