@@ -14,6 +14,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayushdixit23/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/ayushdixit23/DSA/tree/master/0136-single-number) |
+| [0164-maximum-gap](https://github.com/ayushdixit23/DSA/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/ayushdixit23/DSA/tree/master/0217-contains-duplicate) |
@@ -64,6 +65,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0075-sort-colors](https://github.com/ayushdixit23/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
+| [0164-maximum-gap](https://github.com/ayushdixit23/DSA/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ayushdixit23/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
@@ -112,10 +114,12 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Bucket Sort
 |  |
 | ------- |
+| [0164-maximum-gap](https://github.com/ayushdixit23/DSA/tree/master/0164-maximum-gap) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 ## Radix Sort
 |  |
 | ------- |
+| [0164-maximum-gap](https://github.com/ayushdixit23/DSA/tree/master/0164-maximum-gap) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 ## Counting Sort
 |  |
