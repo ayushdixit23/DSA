@@ -14,6 +14,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0027-remove-element](https://github.com/ayushdixit23/DSA/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/ayushdixit23/DSA/tree/master/0031-next-permutation) |
 | [0041-first-missing-positive](https://github.com/ayushdixit23/DSA/tree/master/0041-first-missing-positive) |
+| [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
@@ -98,6 +99,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 ## Binary Search
@@ -156,6 +158,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
