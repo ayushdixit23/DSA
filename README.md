@@ -15,6 +15,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0031-next-permutation](https://github.com/ayushdixit23/DSA/tree/master/0031-next-permutation) |
 | [0041-first-missing-positive](https://github.com/ayushdixit23/DSA/tree/master/0041-first-missing-positive) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ayushdixit23/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0088-merge-sorted-array) |
@@ -55,6 +56,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
@@ -154,6 +156,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/ayushdixit23/DSA/tree/master/1572-matrix-diagonal-sum) |
