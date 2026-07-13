@@ -32,6 +32,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0324-wiggle-sort-ii](https://github.com/ayushdixit23/DSA/tree/master/0324-wiggle-sort-ii) |
 | [0454-4sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0454-4sum-ii) |
 | [0485-max-consecutive-ones](https://github.com/ayushdixit23/DSA/tree/master/0485-max-consecutive-ones) |
+| [0498-diagonal-traverse](https://github.com/ayushdixit23/DSA/tree/master/0498-diagonal-traverse) |
 | [0704-binary-search](https://github.com/ayushdixit23/DSA/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
@@ -59,6 +60,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
+| [0498-diagonal-traverse](https://github.com/ayushdixit23/DSA/tree/master/0498-diagonal-traverse) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
@@ -162,6 +164,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0498-diagonal-traverse](https://github.com/ayushdixit23/DSA/tree/master/0498-diagonal-traverse) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/ayushdixit23/DSA/tree/master/1572-matrix-diagonal-sum) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ayushdixit23/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
