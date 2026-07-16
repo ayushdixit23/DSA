@@ -4,19 +4,17 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         n = len(nums)
+        index = 0
         i = 0
         j = n-1
-        index = 0
 
         while index <= j:
-            element = nums[index]
-
-            if element == 0:
-                nums[i] , nums[index] = nums[index], nums[i]
+            if nums[index] == 1:
+                index+=1
+            elif nums[index] == 0:
+                nums[index] , nums[i] = nums[i] , nums[index]
+                index+=1
                 i+=1
-                index+=1
-            elif element == 1:
-                index+=1
             else:
-                nums[j], nums[index] = nums[index], nums[j]
+                nums[index] , nums[j] = nums[j] , nums[index]
                 j-=1
