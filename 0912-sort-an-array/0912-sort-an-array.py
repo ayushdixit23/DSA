@@ -7,6 +7,9 @@ class Solution:
         self.merge_sort(nums, start, mid)
         self.merge_sort(nums, mid + 1, end)
 
+        if nums[mid] <= nums[mid + 1]:
+            return
+
         self.merge(nums, start, mid, end)
         return
 
@@ -28,10 +31,10 @@ class Solution:
         while j <= end:
             temp_list.append(nums[j])
             j += 1
-        
-        for index in range(start,end+1):
-            nums[index] = temp_list[index-start]
-        
+
+        for index in range(start, end + 1):
+            nums[index] = temp_list[index - start]
+
         return
 
     def sortArray(self, nums: List[int]) -> List[int]:
