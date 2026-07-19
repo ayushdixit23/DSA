@@ -1,17 +1,18 @@
 class Solution:
     def maxProfit(self, nums: List[int]) -> int:
         n = len(nums)
+
+        if n == 1:
+            return 0
+
         minimum = float("inf")
-        maximum = float("-inf")
-        profit = 0
+        max_profit = 0
 
         for i in range(n):
-            if nums[i] < minimum:
-                minimum = nums[i]
-                maximum = nums[i]
+            element = nums[i]
+            if element < minimum:
+                minimum = element
+                maximum = element
             else:
-                maximum = max(maximum,nums[i])
-
-                profit_here = maximum - minimum
-                profit = max(profit, profit_here)
-        return profit
+                max_profit = max(max_profit, (element - minimum))
+        return max_profit
