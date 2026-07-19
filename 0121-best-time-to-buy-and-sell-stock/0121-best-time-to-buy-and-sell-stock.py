@@ -12,7 +12,6 @@ class Solution:
             element = nums[i]
             if element < minimum:
                 minimum = element
-                maximum = element
             else:
                 max_profit = max(max_profit, (element - minimum))
         return max_profit
