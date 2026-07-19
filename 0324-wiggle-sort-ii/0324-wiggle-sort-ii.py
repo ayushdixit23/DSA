@@ -3,15 +3,16 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        temp_list = sorted(nums)
         n = len(nums)
+        templist = sorted(nums)
         i = 0
         j = 1
         half = (n + 1) // 2
 
-        for k in range(n - 1, half - 1, -1):
-            nums[j] = temp_list[k]
+        for index in range(n - 1, half - 1, -1):
+            nums[j] = templist[index]
             j += 2
-        for k in range(half - 1, -1, -1):
-            nums[i] = temp_list[k]
+
+        for index in range(half - 1, -1, -1):
+            nums[i] = templist[index]
             i += 2
