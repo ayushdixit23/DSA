@@ -1,8 +1,7 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        n = len(nums)
         start = 0
-        end = n - 1
+        end = len(nums) - 1
 
         while start <= end:
             mid = (start + end) // 2
