@@ -12,7 +12,6 @@ class Solution:
 
         while start <= end:
             mid = (start + end) // 2
-
             ans = guess(mid)
             if ans == 0:
                 return mid
