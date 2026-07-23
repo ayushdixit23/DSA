@@ -7,14 +7,14 @@ class Solution:
             mid = (start + end) // 2
 
             if nums[mid] == target:
-                return mid 
-            
+                return mid
+
             if nums[start] == target:
                 return start
-            
+
             if nums[end] == target:
                 return end
-            
+
             if nums[start] <= nums[mid]:
                 if target >= nums[start] and target < nums[mid]:
                     end = mid - 1
