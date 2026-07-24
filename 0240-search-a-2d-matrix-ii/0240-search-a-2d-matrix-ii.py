@@ -3,18 +3,16 @@ class Solution:
         m = len(matrix)
         n = len(matrix[0])
 
-        for i in range(m):
-            start = 0
-            end = n - 1
+        row = 0
+        col = n - 1
 
-            while start <= end:
-                mid = (start + end) // 2
-                element = matrix[i][mid]
-                if element == target:
-                    return True
-                elif element > target:
-                    end = mid - 1
-                else:
-                    start = mid + 1
-
+        while row <= m - 1 and col >= 0:
+            element = matrix[row][col]
+            if element == target:
+                return True
+            elif element > target:
+                col-=1
+            else:
+                row += 1
+        
         return False
