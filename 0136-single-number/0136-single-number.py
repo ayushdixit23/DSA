@@ -1,9 +1,9 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         n = len(nums)
-        element = nums[0]
+        elem = nums[0]
 
         for i in range(1,n):
-            element ^= nums[i]
+            elem ^= nums[i]
         
-        return element
+        return elem
