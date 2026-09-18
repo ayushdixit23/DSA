@@ -136,6 +136,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0567-permutation-in-string](https://github.com/ayushdixit23/DSA/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/ayushdixit23/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushdixit23/DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ayushdixit23/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushdixit23/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayushdixit23/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -235,6 +236,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 | [0922-sort-array-by-parity-ii](https://github.com/ayushdixit23/DSA/tree/master/0922-sort-array-by-parity-ii) |
 | [0937-reorder-data-in-log-files](https://github.com/ayushdixit23/DSA/tree/master/0937-reorder-data-in-log-files) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Math
 |  |
@@ -669,6 +671,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -676,6 +679,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -686,6 +690,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -693,4 +698,5 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ayushdixit23/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/ayushdixit23/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
