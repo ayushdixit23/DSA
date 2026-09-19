@@ -13,17 +13,24 @@ class Solution:
         q.append((root,0))
 
         while q:
-            maximum = float("-inf")
-            minimum = float("inf")
+            level_size = len(q)
+            offset = q[0][1]
+            first = last = 0
+
             for _ in range(len(q)):
                 elem, id = q.popleft()
-                maximum = max(id , maximum)
-                minimum = min(id , minimum)
+                id -= offset
+
+                if _ == 0:
+                    first = id
+
+                if _ == level_size - 1:
+                    last = id
 
                 if elem.left:
                     q.append((elem.left,2*id+1))
                 if elem.right:
                     q.append((elem.right,2*id+2))
             
-            maxWidth = max(maxWidth,(maximum - minimum + 1))
+            maxWidth = max(maxWidth,(last - first + 1))
         return maxWidth
