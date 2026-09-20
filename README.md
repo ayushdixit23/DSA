@@ -355,6 +355,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0151-reverse-words-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0316-remove-duplicate-letters](https://github.com/ayushdixit23/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ayushdixit23/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -643,6 +644,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0078-subsets](https://github.com/ayushdixit23/DSA/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0113-path-sum-ii) |
+| [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/ayushdixit23/DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Quicksort
 |  |
@@ -686,6 +688,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -709,6 +712,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -735,6 +739,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
