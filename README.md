@@ -488,6 +488,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## String Matching
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0796-rotate-string](https://github.com/ayushdixit23/DSA/tree/master/0796-rotate-string) |
 ## Trie
 |  |
@@ -538,6 +539,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
+| [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -685,6 +687,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -707,6 +710,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -732,6 +736,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
