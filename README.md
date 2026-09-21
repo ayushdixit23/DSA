@@ -145,6 +145,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayushdixit23/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/ayushdixit23/DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ayushdixit23/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2965-find-missing-and-repeated-values](https://github.com/ayushdixit23/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Simulation
@@ -696,6 +697,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -722,6 +724,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Tree
 |  |
 | ------- |
@@ -751,6 +754,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -768,6 +772,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## DP on Trees
 |  |
 | ------- |
