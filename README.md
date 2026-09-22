@@ -364,6 +364,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0316-remove-duplicate-letters](https://github.com/ayushdixit23/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ayushdixit23/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -542,6 +543,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0155-min-stack](https://github.com/ayushdixit23/DSA/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/ayushdixit23/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/ayushdixit23/DSA/tree/master/0901-online-stock-span) |
@@ -700,6 +702,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
@@ -729,6 +732,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
@@ -763,6 +767,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
@@ -786,6 +791,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0112-path-sum](https://github.com/ayushdixit23/DSA/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
