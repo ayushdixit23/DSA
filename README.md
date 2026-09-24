@@ -381,6 +381,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0424-longest-repeating-character-replacement](https://github.com/ayushdixit23/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/ayushdixit23/DSA/tree/master/0443-string-compression) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0451-sort-characters-by-frequency](https://github.com/ayushdixit23/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0567-permutation-in-string](https://github.com/ayushdixit23/DSA/tree/master/0567-permutation-in-string) |
@@ -553,6 +554,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0155-min-stack](https://github.com/ayushdixit23/DSA/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/ayushdixit23/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/ayushdixit23/DSA/tree/master/0901-online-stock-span) |
@@ -721,6 +723,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushdixit23/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -765,6 +768,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushdixit23/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
@@ -812,6 +816,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushdixit23/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -846,6 +851,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -880,6 +886,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushdixit23/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
