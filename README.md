@@ -319,6 +319,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/ayushdixit23/DSA/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/ayushdixit23/DSA/tree/master/0191-number-of-1-bits) |
@@ -580,6 +581,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/ayushdixit23/DSA/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ayushdixit23/DSA/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0086-partition-list](https://github.com/ayushdixit23/DSA/tree/master/0086-partition-list) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/ayushdixit23/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/ayushdixit23/DSA/tree/master/0142-linked-list-cycle-ii) |
@@ -698,6 +700,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/ayushdixit23/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ayushdixit23/DSA/tree/master/0112-path-sum) |
@@ -776,6 +779,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/ayushdixit23/DSA/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ayushdixit23/DSA/tree/master/0112-path-sum) |
@@ -848,6 +852,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0109-convert-sorted-list-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
