@@ -127,6 +127,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0160-intersection-of-two-linked-lists](https://github.com/ayushdixit23/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
+| [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/ayushdixit23/DSA/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
@@ -371,6 +372,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0125-valid-palindrome](https://github.com/ayushdixit23/DSA/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
+| [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -516,6 +518,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ayushdixit23/DSA/tree/master/0014-longest-common-prefix) |
+| [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
 ## Stack
 |  |
 | ------- |
@@ -557,6 +560,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0155-min-stack](https://github.com/ayushdixit23/DSA/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/ayushdixit23/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/ayushdixit23/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
