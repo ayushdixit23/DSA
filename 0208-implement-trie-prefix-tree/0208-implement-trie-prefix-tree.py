@@ -5,13 +5,15 @@ class Node:
 
 class Trie:
     def __init__(self):
-        self.root = Node()
+       self.root = Node() 
 
     def insert(self, word: str) -> None:
         root = self.root
         size = len(word)
+
         for i in range(size):
             ch = word[i]
+
             if ch not in root.children:
                 root.children[ch] = Node()
             
@@ -28,12 +30,13 @@ class Trie:
 
             if ch not in root.children:
                 return False
-
+            
             root = root.children[ch]
             if i == (size - 1) and not root.is_end:
-                return False 
-
+                return False
+        
         return True
+
 
     def startsWith(self, prefix: str) -> bool:
         root = self.root
@@ -46,6 +49,7 @@ class Trie:
                 return False
             
             root = root.children[ch]
+        
         return True
 
 
