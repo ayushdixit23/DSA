@@ -1,38 +1,88 @@
-class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-        n = len(strs)
+class Node:
+    def __init__(self):
+        self.children = [None] * 26
+        self.is_end = False 
 
-        if n == 1:
-            return strs[0]
+class Trie:
+    def __init__(self):
+        self.root = Node()
 
-        ans = strs[0]
+    def insert(self, word: str) -> None:
+        root = self.root
+        size = len(word)
 
-        if ans == "":
-            return ""
+        if word == "":
+            root.is_end = True
+            return
 
-        for i in range(1, n):
-            elem = strs[i]
+        for i in range(size):
+            index = ord(word[i]) - ord('a')
 
-            if elem == "":
-                return ""
+            if root.children[index] == None:
+                root.children[index] = Node()
 
-            result = []
+            root = root.children[index]
 
-            ans_len = len(ans)
-            elem_len = len(elem)
+            if i == (size - 1):
+                root.is_end = True
 
-            j = 0
-            k = 0
+    def search(self, word: str) -> bool:
+        root = self.root
+        size = len(word)
 
-            while j < elem_len and k < ans_len:
-                if elem[j] == ans[k]:
-                    result.append(elem[j])
-                    j += 1
-                    k += 1
-                else:
-                    ans = "".join(result)
-                    break
+        for i in range(size):
+            index = ord(word[i]) - ord('a')
+            if root.children[index] == None:
+                return False
             
-            ans = "".join(result)
+            root = root.children[index]
+        
+        return root.is_end
 
-        return ans
+    def startsWith(self, prefix: str) -> bool:
+        root = self.root
+        size = len(prefix)
+
+        for i in range(size):
+            index = ord(prefix[i]) - ord('a')
+            if root.children[index] == None:
+                return False
+            
+            root = root.children[index]
+        
+        return True
+
+class Solution:
+    def helper(self, root, temp):
+        if root.is_end:
+            self.string = "".join(temp)
+            return
+        
+        count = 0
+        node = None
+        index = -1
+        for i in range(26):
+            child = root.children[i]
+            if child is not None:
+                node = child
+                index = i
+                count += 1
+        if count == 1:
+            ch = chr(ord('a') + index)
+            temp.append(ch)
+            self.helper(node, temp)
+            return
+        else:
+            self.string = "".join(temp)
+            return
+
+    def longestCommonPrefix(self, strs: list[str]) -> str:
+        trie = Trie()
+        for word in strs:
+            trie.insert(word)
+        
+        root = trie.root
+        self.string = ""
+        temp = []
+        self.helper(root, temp)
+        return self.string
