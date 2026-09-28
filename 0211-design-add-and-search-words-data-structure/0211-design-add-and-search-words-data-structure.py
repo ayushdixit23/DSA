@@ -1,51 +1,50 @@
 class Node:
     def __init__(self):
         self.children = [None] * 26
-        self.is_end = False 
-        
+        self.is_end = False
+
+
 class WordDictionary:
     def __init__(self):
         self.root = Node()
 
     def addWord(self, word: str) -> None:
         root = self.root
-        size = len(word)
-        for i in range(size):
-            index = ord(word[i]) - ord('a')
 
-            if root.children[index] == None:
+        for ch in word:
+            index = ord(ch) - ord("a")
+            if root.children[index] is None:
                 root.children[index] = Node()
 
             root = root.children[index]
 
-            if i == (size - 1):
-                root.is_end = True
+        root.is_end = True
 
-    def dfs(self, node, word, i):
+    def helper(self, root, word, i):
         if i == len(word):
-            return node.is_end
+            return root.is_end
 
         ch = word[i]
 
         if ch == ".":
-            for child in node.children:
+            for j in range(26):
+                child = root.children[j]
                 if child is not None:
-                    if self.dfs(child, word, i + 1):
+                    if self.helper(child, word, i+1):
                         return True
-
+            
+            return False
+            
+        index = ord(ch) - ord("a")
+        if root.children[index] is None:
             return False
 
-        index = ord(ch) - ord('a')
-        child = node.children[index]
-
-        if child is None:
-            return False
-
-        return self.dfs(child, word, i + 1)
+        return self.helper(root.children[index], word, i + 1)
 
     def search(self, word: str) -> bool:
-        return self.dfs(self.root, word, 0)
-        
+        return self.helper(self.root, word, 0)
+
+
 # Your WordDictionary object will be instantiated and called as such:
 # obj = WordDictionary()
 # obj.addWord(word)
