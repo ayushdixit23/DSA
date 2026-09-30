@@ -108,6 +108,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1901-find-a-peak-element-ii](https://github.com/ayushdixit23/DSA/tree/master/1901-find-a-peak-element-ii) |
 | [1920-build-array-from-permutation](https://github.com/ayushdixit23/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/ayushdixit23/DSA/tree/master/1991-find-the-middle-index-in-array) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdixit23/DSA/tree/master/2090-k-radius-subarray-averages) |
@@ -265,6 +266,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/ayushdixit23/DSA/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 ## Math
 |  |
@@ -351,6 +353,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ayushdixit23/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1382-balance-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/1382-balance-a-binary-search-tree) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 ## Counting
 |  |
 | ------- |
@@ -430,6 +433,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayushdixit23/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1903-largest-odd-number-in-string](https://github.com/ayushdixit23/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [1957-delete-characters-to-make-fancy-string](https://github.com/ayushdixit23/DSA/tree/master/1957-delete-characters-to-make-fancy-string) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ayushdixit23/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/ayushdixit23/DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
@@ -446,6 +450,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1046-last-stone-weight](https://github.com/ayushdixit23/DSA/tree/master/1046-last-stone-weight) |
 | [1425-constrained-subsequence-sum](https://github.com/ayushdixit23/DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ayushdixit23/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 ## Merge Sort
 |  |
 | ------- |
@@ -506,6 +511,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0324-wiggle-sort-ii](https://github.com/ayushdixit23/DSA/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ayushdixit23/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/ayushdixit23/DSA/tree/master/0973-k-closest-points-to-origin) |
+| [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 ## Sliding Window
 |  |
 | ------- |
