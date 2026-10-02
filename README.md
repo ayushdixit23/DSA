@@ -240,6 +240,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1768-merge-strings-alternately](https://github.com/ayushdixit23/DSA/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayushdixit23/DSA/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2396-strictly-palindromic-number](https://github.com/ayushdixit23/DSA/tree/master/2396-strictly-palindromic-number) |
 ## Sorting
 |  |
 | ------- |
@@ -295,6 +296,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushdixit23/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1903-largest-odd-number-in-string](https://github.com/ayushdixit23/DSA/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/ayushdixit23/DSA/tree/master/1922-count-good-numbers) |
+| [2396-strictly-palindromic-number](https://github.com/ayushdixit23/DSA/tree/master/2396-strictly-palindromic-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/ayushdixit23/DSA/tree/master/2965-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
@@ -1045,4 +1047,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ayushdixit23/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Brainteaser
+|  |
+| ------- |
+| [2396-strictly-palindromic-number](https://github.com/ayushdixit23/DSA/tree/master/2396-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
