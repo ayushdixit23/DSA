@@ -141,6 +141,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/ayushdixit23/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0387-first-unique-character-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/ayushdixit23/DSA/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushdixit23/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -458,6 +459,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0215-kth-largest-element-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/ayushdixit23/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/ayushdixit23/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/ayushdixit23/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
@@ -634,6 +636,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdixit23/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0232-implement-queue-using-stacks](https://github.com/ayushdixit23/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0677-map-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/0677-map-sum-pairs) |
@@ -683,6 +686,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0206-reverse-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0328-odd-even-linked-list) |
+| [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0445-add-two-numbers-ii](https://github.com/ayushdixit23/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0876-middle-of-the-linked-list) |
