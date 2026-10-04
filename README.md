@@ -38,6 +38,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayushdixit23/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/ayushdixit23/DSA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ayushdixit23/DSA/tree/master/0137-single-number-ii) |
 | [0152-maximum-product-subarray](https://github.com/ayushdixit23/DSA/tree/master/0152-maximum-product-subarray) |
@@ -136,6 +137,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0076-minimum-window-substring](https://github.com/ayushdixit23/DSA/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/ayushdixit23/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/ayushdixit23/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ayushdixit23/DSA/tree/master/0160-intersection-of-two-linked-lists) |
@@ -1079,4 +1081,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [2396-strictly-palindromic-number](https://github.com/ayushdixit23/DSA/tree/master/2396-strictly-palindromic-number) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
