@@ -88,6 +88,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0930-binary-subarrays-with-sum](https://github.com/ayushdixit23/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0937-reorder-data-in-log-files](https://github.com/ayushdixit23/DSA/tree/master/0937-reorder-data-in-log-files) |
 | [0973-k-closest-points-to-origin](https://github.com/ayushdixit23/DSA/tree/master/0973-k-closest-points-to-origin) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ayushdixit23/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ayushdixit23/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushdixit23/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -170,6 +171,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/ayushdixit23/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushdixit23/DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ayushdixit23/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ayushdixit23/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1207-unique-number-of-occurrences](https://github.com/ayushdixit23/DSA/tree/master/1207-unique-number-of-occurrences) |
@@ -206,6 +208,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0560-subarray-sum-equals-k](https://github.com/ayushdixit23/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushdixit23/DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/ayushdixit23/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushdixit23/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushdixit23/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayushdixit23/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
