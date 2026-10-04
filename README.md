@@ -115,6 +115,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1929-concatenation-of-array](https://github.com/ayushdixit23/DSA/tree/master/1929-concatenation-of-array) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/ayushdixit23/DSA/tree/master/1991-find-the-middle-index-in-array) |
+| [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ayushdixit23/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2090-k-radius-subarray-averages](https://github.com/ayushdixit23/DSA/tree/master/2090-k-radius-subarray-averages) |
 | [2104-sum-of-subarray-ranges](https://github.com/ayushdixit23/DSA/tree/master/2104-sum-of-subarray-ranges) |
@@ -173,6 +174,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1695-maximum-erasure-value](https://github.com/ayushdixit23/DSA/tree/master/1695-maximum-erasure-value) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayushdixit23/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ayushdixit23/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/ayushdixit23/DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -388,6 +390,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ayushdixit23/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ayushdixit23/DSA/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ayushdixit23/DSA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 ## Dynamic Programming
 |  |
