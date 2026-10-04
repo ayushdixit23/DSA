@@ -73,6 +73,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0643-maximum-average-subarray-i](https://github.com/ayushdixit23/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0704-binary-search](https://github.com/ayushdixit23/DSA/tree/master/0704-binary-search) |
+| [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/ayushdixit23/DSA/tree/master/0735-asteroid-collision) |
@@ -161,6 +162,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0677-map-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/0677-map-sum-pairs) |
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
+| [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -659,6 +661,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0677-map-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/0677-map-sum-pairs) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayushdixit23/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/ayushdixit23/DSA/tree/master/0901-online-stock-span) |
 ## Hash Function
@@ -666,6 +669,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -706,6 +710,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0328-odd-even-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0445-add-two-numbers-ii](https://github.com/ayushdixit23/DSA/tree/master/0445-add-two-numbers-ii) |
+| [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayushdixit23/DSA/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
