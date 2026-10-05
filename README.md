@@ -57,6 +57,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0260-single-number-iii](https://github.com/ayushdixit23/DSA/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/ayushdixit23/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0324-wiggle-sort-ii](https://github.com/ayushdixit23/DSA/tree/master/0324-wiggle-sort-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ayushdixit23/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ayushdixit23/DSA/tree/master/0349-intersection-of-two-arrays) |
@@ -209,6 +210,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ayushdixit23/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ayushdixit23/DSA/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/ayushdixit23/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/ayushdixit23/DSA/tree/master/0410-split-array-largest-sum) |
 | [0523-continuous-subarray-sum](https://github.com/ayushdixit23/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ayushdixit23/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -670,6 +672,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0232-implement-queue-using-stacks](https://github.com/ayushdixit23/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/ayushdixit23/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0303-range-sum-query-immutable](https://github.com/ayushdixit23/DSA/tree/master/0303-range-sum-query-immutable) |
 | [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
