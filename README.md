@@ -160,6 +160,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0438-find-all-anagrams-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/ayushdixit23/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0454-4sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0454-4sum-ii) |
+| [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/ayushdixit23/DSA/tree/master/0496-next-greater-element-i) |
 | [0523-continuous-subarray-sum](https://github.com/ayushdixit23/DSA/tree/master/0523-continuous-subarray-sum) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
@@ -671,6 +672,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
+| [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
 | [0535-encode-and-decode-tinyurl](https://github.com/ayushdixit23/DSA/tree/master/0535-encode-and-decode-tinyurl) |
 | [0677-map-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/0677-map-sum-pairs) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayushdixit23/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -724,6 +726,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0328-odd-even-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/ayushdixit23/DSA/tree/master/0355-design-twitter) |
 | [0445-add-two-numbers-ii](https://github.com/ayushdixit23/DSA/tree/master/0445-add-two-numbers-ii) |
+| [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
 | [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0707-design-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0876-middle-of-the-linked-list) |
@@ -1105,4 +1108,5 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
