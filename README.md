@@ -142,6 +142,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/ayushdixit23/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/ayushdixit23/DSA/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ayushdixit23/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
@@ -658,6 +659,7 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/ayushdixit23/DSA/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/ayushdixit23/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
@@ -710,6 +712,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0138-copy-list-with-random-pointer](https://github.com/ayushdixit23/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/ayushdixit23/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/ayushdixit23/DSA/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/ayushdixit23/DSA/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/ayushdixit23/DSA/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ayushdixit23/DSA/tree/master/0160-intersection-of-two-linked-lists) |
@@ -1096,4 +1099,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/ayushdixit23/DSA/tree/master/0523-continuous-subarray-sum) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
