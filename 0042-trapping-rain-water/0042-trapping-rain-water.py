@@ -1,28 +1,28 @@
 class Solution:
     def trap(self, height: list[int]) -> int:
         n = len(height)
-        prefixLeftMax = [0] * n
-        prefixRightMax = [0] * n
-        
-        prefixLeftMax[0] = height[0]
-        prefixRightMax[n - 1] = height[n - 1]
 
-        i = 1
-        j = n - 2
+        prefix_left_max = [0] * n
+        prefix_right_max = [0] * n
+
+        i = 0
+        j = n - 1
+        prefix_left_max[i] = height[i]
+        prefix_right_max[j] = height[j]
+
+        i+=1
+        j-=1
 
         while i < n:
-            prefixLeftMax[i] = max(prefixLeftMax[i - 1], height[i])
-            prefixRightMax[j] = max(prefixRightMax[j + 1], height[j])
+            prefix_left_max[i] = max(height[i], prefix_left_max[i-1])
+            prefix_right_max[j] = max(height[j], prefix_right_max[j+1])
 
-            i += 1
-            j -= 1
+            i+=1
+            j-=1
         
-        i = 0
-
-        total = 0
+        ans = 0
         for i in range(n):
-            element = height[i]
-            if ((element < prefixLeftMax[i]) and (element < prefixRightMax[i])):
-                total += min(prefixLeftMax[i], prefixRightMax[i]) - height[i]
+            minMax = min(prefix_left_max[i],prefix_right_max[i])
+            ans += minMax - height[i]
         
-        return total
+        return ans
