@@ -132,6 +132,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [2104-sum-of-subarray-ranges](https://github.com/ayushdixit23/DSA/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2260-minimum-consecutive-cards-to-pick-up](https://github.com/ayushdixit23/DSA/tree/master/2260-minimum-consecutive-cards-to-pick-up) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ayushdixit23/DSA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2965-find-missing-and-repeated-values](https://github.com/ayushdixit23/DSA/tree/master/2965-find-missing-and-repeated-values) |
 | [3355-zero-array-transformation-i](https://github.com/ayushdixit23/DSA/tree/master/3355-zero-array-transformation-i) |
@@ -279,6 +280,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/ayushdixit23/DSA/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ayushdixit23/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2396-strictly-palindromic-number](https://github.com/ayushdixit23/DSA/tree/master/2396-strictly-palindromic-number) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Sorting
 |  |
 | ------- |
@@ -316,6 +318,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/ayushdixit23/DSA/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
 ## Math
 |  |
@@ -580,6 +583,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ayushdixit23/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1382-balance-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1903-largest-odd-number-in-string](https://github.com/ayushdixit23/DSA/tree/master/1903-largest-odd-number-in-string) |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Quickselect
 |  |
 | ------- |
