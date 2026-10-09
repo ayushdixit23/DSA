@@ -67,6 +67,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0349-intersection-of-two-arrays](https://github.com/ayushdixit23/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/ayushdixit23/DSA/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ayushdixit23/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0454-4sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0454-4sum-ii) |
 | [0455-assign-cookies](https://github.com/ayushdixit23/DSA/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ayushdixit23/DSA/tree/master/0485-max-consecutive-ones) |
@@ -307,6 +308,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0347-top-k-frequent-elements](https://github.com/ayushdixit23/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/ayushdixit23/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0435-non-overlapping-intervals](https://github.com/ayushdixit23/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/ayushdixit23/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/ayushdixit23/DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
@@ -442,6 +444,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0152-maximum-product-subarray](https://github.com/ayushdixit23/DSA/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/ayushdixit23/DSA/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ayushdixit23/DSA/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ayushdixit23/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0509-fibonacci-number](https://github.com/ayushdixit23/DSA/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/ayushdixit23/DSA/tree/master/0647-palindromic-substrings) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -579,6 +582,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0402-remove-k-digits](https://github.com/ayushdixit23/DSA/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/ayushdixit23/DSA/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/ayushdixit23/DSA/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ayushdixit23/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/ayushdixit23/DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
