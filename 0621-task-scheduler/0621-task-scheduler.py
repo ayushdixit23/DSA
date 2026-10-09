@@ -3,34 +3,34 @@ from collections import deque
 
 
 class Solution:
-    def leastInterval(self, tasks: list[str], n: int) -> int:
-        q = deque()
-        heap = []
+    def leastInterval(self, tasks: list[str], k: int) -> int:
+        n = len(tasks)
         hash_map = {}
-        t = 0
+        heap = []
+        q = deque()
 
-        length = len(tasks)
-
-        for i in range(length):
+        for i in range(n):
             hash_map[tasks[i]] = hash_map.get(tasks[i], 0) + 1
 
-        for _, value in hash_map.items():
+        for key, value in hash_map.items():
             heapq.heappush(heap, -value)
+
+        t = 0
 
         while heap or q:
             while q and q[0][1] <= t:
-                heapq.heappush(heap, q.popleft()[0])
+                elem = q.popleft()[0]
+                heapq.heappush(heap, elem)
 
             if not heap:
                 t = q[0][1]
                 continue
 
             t += 1
-
-            count = heapq.heappop(heap)
-            count += 1
-
-            if count:
-                q.append((count, t + n))
+            freq = heapq.heappop(heap)
+            freq += 1
+            if freq:
+                time = t + k
+                q.append((freq, time))
 
         return t
