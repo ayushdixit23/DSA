@@ -508,6 +508,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2053-kth-distinct-string-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/2053-kth-distinct-string-in-an-array) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ayushdixit23/DSA/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/ayushdixit23/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/ayushdixit23/DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Heap (Priority Queue)
 |  |
@@ -596,6 +597,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ayushdixit23/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1382-balance-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1903-largest-odd-number-in-string](https://github.com/ayushdixit23/DSA/tree/master/1903-largest-odd-number-in-string) |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/ayushdixit23/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 ## Quickselect
 |  |
@@ -1150,4 +1152,8 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0146-lru-cache](https://github.com/ayushdixit23/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/ayushdixit23/DSA/tree/master/0460-lfu-cache) |
+## Enumeration
+|  |
+| ------- |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/ayushdixit23/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
 <!---LeetCode Topics End-->
