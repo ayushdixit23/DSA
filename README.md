@@ -26,6 +26,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/ayushdixit23/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ayushdixit23/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ayushdixit23/DSA/tree/master/0057-insert-interval) |
 | [0073-set-matrix-zeroes](https://github.com/ayushdixit23/DSA/tree/master/0073-set-matrix-zeroes) |
@@ -438,6 +439,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0005-longest-palindromic-substring](https://github.com/ayushdixit23/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/ayushdixit23/DSA/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ayushdixit23/DSA/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/ayushdixit23/DSA/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/ayushdixit23/DSA/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayushdixit23/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -579,6 +581,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ayushdixit23/DSA/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/ayushdixit23/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdixit23/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0316-remove-duplicate-letters](https://github.com/ayushdixit23/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0324-wiggle-sort-ii](https://github.com/ayushdixit23/DSA/tree/master/0324-wiggle-sort-ii) |
