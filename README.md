@@ -453,6 +453,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0435-non-overlapping-intervals](https://github.com/ayushdixit23/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0509-fibonacci-number](https://github.com/ayushdixit23/DSA/tree/master/0509-fibonacci-number) |
 | [0647-palindromic-substrings](https://github.com/ayushdixit23/DSA/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushdixit23/DSA/tree/master/0907-sum-of-subarray-minimums) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -492,6 +493,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0567-permutation-in-string](https://github.com/ayushdixit23/DSA/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/ayushdixit23/DSA/tree/master/0647-palindromic-substrings) |
 | [0677-map-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/0677-map-sum-pairs) |
+| [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
@@ -595,6 +597,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ayushdixit23/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/ayushdixit23/DSA/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
@@ -688,6 +691,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0496-next-greater-element-i](https://github.com/ayushdixit23/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayushdixit23/DSA/tree/master/0503-next-greater-element-ii) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0590-n-ary-tree-postorder-traversal) |
+| [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/ayushdixit23/DSA/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/ayushdixit23/DSA/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/ayushdixit23/DSA/tree/master/0901-online-stock-span) |
@@ -801,6 +805,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0020-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ayushdixit23/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Monotonic Stack
 |  |
