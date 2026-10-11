@@ -1,7 +1,8 @@
 class Solution:
     def canCompleteCircuit(self, gas: list[int], cost: list[int]) -> int:
-        total_gas = 0
         total_cost = 0
+        total_gas = 0
+        
         curr = 0
         index = 0
 
@@ -18,5 +19,5 @@ class Solution:
         
         if total_cost > total_gas:
             return -1
-        else:
-            return index
+        
+        return index
