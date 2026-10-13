@@ -94,6 +94,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0875-koko-eating-bananas](https://github.com/ayushdixit23/DSA/tree/master/0875-koko-eating-bananas) |
+| [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 | [0904-fruit-into-baskets](https://github.com/ayushdixit23/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushdixit23/DSA/tree/master/0907-sum-of-subarray-minimums) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
@@ -282,6 +283,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/ayushdixit23/DSA/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0876-middle-of-the-linked-list) |
+| [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 | [0922-sort-array-by-parity-ii](https://github.com/ayushdixit23/DSA/tree/master/0922-sort-array-by-parity-ii) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1768-merge-strings-alternately](https://github.com/ayushdixit23/DSA/tree/master/1768-merge-strings-alternately) |
@@ -320,6 +322,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
+| [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 | [0922-sort-array-by-parity-ii](https://github.com/ayushdixit23/DSA/tree/master/0922-sort-array-by-parity-ii) |
 | [0937-reorder-data-in-log-files](https://github.com/ayushdixit23/DSA/tree/master/0937-reorder-data-in-log-files) |
@@ -604,6 +607,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
+| [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ayushdixit23/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ayushdixit23/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1382-balance-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/1382-balance-a-binary-search-tree) |
@@ -1169,4 +1173,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/ayushdixit23/DSA/tree/master/2259-remove-digit-from-number-to-maximize-result) |
+## Timsort
+|  |
+| ------- |
+| [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 <!---LeetCode Topics End-->
