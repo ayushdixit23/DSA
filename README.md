@@ -190,6 +190,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
+| [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/ayushdixit23/DSA/tree/master/0904-fruit-into-baskets) |
@@ -282,6 +283,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0647-palindromic-substrings](https://github.com/ayushdixit23/DSA/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
+| [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0844-backspace-string-compare](https://github.com/ayushdixit23/DSA/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/ayushdixit23/DSA/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
@@ -504,6 +506,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
+| [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0796-rotate-string](https://github.com/ayushdixit23/DSA/tree/master/0796-rotate-string) |
 | [0844-backspace-string-compare](https://github.com/ayushdixit23/DSA/tree/master/0844-backspace-string-compare) |
@@ -607,6 +610,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
+| [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
