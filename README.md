@@ -129,6 +129,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/ayushdixit23/DSA/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/ayushdixit23/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayushdixit23/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1834-single-threaded-cpu](https://github.com/ayushdixit23/DSA/tree/master/1834-single-threaded-cpu) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/ayushdixit23/DSA/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ayushdixit23/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1901-find-a-peak-element-ii](https://github.com/ayushdixit23/DSA/tree/master/1901-find-a-peak-element-ii) |
@@ -335,6 +336,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/ayushdixit23/DSA/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/ayushdixit23/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
+| [1834-single-threaded-cpu](https://github.com/ayushdixit23/DSA/tree/master/1834-single-threaded-cpu) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/ayushdixit23/DSA/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
@@ -547,6 +549,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1046-last-stone-weight](https://github.com/ayushdixit23/DSA/tree/master/1046-last-stone-weight) |
 | [1425-constrained-subsequence-sum](https://github.com/ayushdixit23/DSA/tree/master/1425-constrained-subsequence-sum) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/ayushdixit23/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1834-single-threaded-cpu](https://github.com/ayushdixit23/DSA/tree/master/1834-single-threaded-cpu) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/ayushdixit23/DSA/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 ## Merge Sort
 |  |
