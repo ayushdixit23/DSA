@@ -90,6 +90,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/ayushdixit23/DSA/tree/master/0735-asteroid-collision) |
+| [0846-hand-of-straights](https://github.com/ayushdixit23/DSA/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -194,6 +195,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
+| [0846-hand-of-straights](https://github.com/ayushdixit23/DSA/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/ayushdixit23/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushdixit23/DSA/tree/master/0930-binary-subarrays-with-sum) |
@@ -329,6 +331,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
+| [0846-hand-of-straights](https://github.com/ayushdixit23/DSA/tree/master/0846-hand-of-straights) |
 | [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 | [0922-sort-array-by-parity-ii](https://github.com/ayushdixit23/DSA/tree/master/0922-sort-array-by-parity-ii) |
@@ -618,6 +621,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0680-valid-palindrome-ii](https://github.com/ayushdixit23/DSA/tree/master/0680-valid-palindrome-ii) |
 | [0763-partition-labels](https://github.com/ayushdixit23/DSA/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
+| [0846-hand-of-straights](https://github.com/ayushdixit23/DSA/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
