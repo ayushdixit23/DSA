@@ -45,6 +45,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdixit23/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/ayushdixit23/DSA/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/ayushdixit23/DSA/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/ayushdixit23/DSA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ayushdixit23/DSA/tree/master/0137-single-number-ii) |
 | [0152-maximum-product-subarray](https://github.com/ayushdixit23/DSA/tree/master/0152-maximum-product-subarray) |
@@ -608,6 +609,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0055-jump-game](https://github.com/ayushdixit23/DSA/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdixit23/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/ayushdixit23/DSA/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/ayushdixit23/DSA/tree/master/0135-candy) |
 | [0316-remove-duplicate-letters](https://github.com/ayushdixit23/DSA/tree/master/0316-remove-duplicate-letters) |
 | [0324-wiggle-sort-ii](https://github.com/ayushdixit23/DSA/tree/master/0324-wiggle-sort-ii) |
 | [0402-remove-k-digits](https://github.com/ayushdixit23/DSA/tree/master/0402-remove-k-digits) |
