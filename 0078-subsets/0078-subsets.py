@@ -1,15 +1,18 @@
 class Solution:
-    def all_subsets(self, nums, index, ans, temp):
-        if index == len(nums):
-            ans.append(temp.copy())
+    def recursion(self, nums, i, curr , ans):
+        if i == len(nums):
+            ans.append(curr.copy())
             return
-        temp.append(nums[index])
-        self.all_subsets(nums, index + 1, ans, temp)
-        temp.pop()
-        self.all_subsets(nums, index + 1, ans, temp)
+        
+        curr.append(nums[i])
+        self.recursion(nums,i+1,curr, ans)
+        curr.pop()
+        self.recursion(nums,i+1,curr, ans)
         return
 
-    def subsets(self, nums):
+    def subsets(self, nums: list[int]) -> list[list[int]]:
         ans = []
-        self.all_subsets(nums, 0, ans, [])
+        curr = []
+
+        self.recursion(nums,0,curr, ans)
         return ans
