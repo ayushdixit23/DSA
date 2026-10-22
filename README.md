@@ -24,6 +24,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0042-trapping-rain-water](https://github.com/ayushdixit23/DSA/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ayushdixit23/DSA/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/ayushdixit23/DSA/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
@@ -310,6 +311,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0015-3sum](https://github.com/ayushdixit23/DSA/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ayushdixit23/DSA/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ayushdixit23/DSA/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ayushdixit23/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ayushdixit23/DSA/tree/master/0075-sort-colors) |
@@ -884,6 +886,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ayushdixit23/DSA/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/ayushdixit23/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ayushdixit23/DSA/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0113-path-sum-ii) |
