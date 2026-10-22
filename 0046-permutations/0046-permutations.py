@@ -1,28 +1,33 @@
 class Solution:
-    def backtrack(self, hash_map, ans, nums,curr):
-        if len(curr) == len(nums):
+    def backtrack(self, nums, hash_map , curr, ans, n):
+        if len(curr) == n:
             ans.append(curr.copy())
             return
         
-        for i in range(len(nums)):
-            if hash_map.get(nums[i]):
+        for i in range(n):
+            if hash_map[nums[i]]:
                 continue
             
-            curr.append(nums[i])
             hash_map[nums[i]] = True
+            curr.append(nums[i])
 
-            self.backtrack(hash_map, ans, nums,curr)
+            self.backtrack(nums, hash_map , curr, ans, n)
 
             curr.pop()
             hash_map[nums[i]] = False
-        
+
         return
 
-
-        
     def permute(self, nums: list[int]) -> list[list[int]]:
-        hash_map = {}
         ans = []
         curr = []
-        self.backtrack(hash_map, ans, nums,curr)
+
+        n = len(nums)
+
+        hash_map = {}
+
+        for i in range(n):
+            hash_map[nums[i]] = False
+        
+        self.backtrack(nums, hash_map , curr, ans, n)
         return ans
