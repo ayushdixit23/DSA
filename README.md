@@ -477,6 +477,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ayushdixit23/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ayushdixit23/DSA/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ayushdixit23/DSA/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/ayushdixit23/DSA/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/ayushdixit23/DSA/tree/master/0152-maximum-product-subarray) |
 | [0392-is-subsequence](https://github.com/ayushdixit23/DSA/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ayushdixit23/DSA/tree/master/0410-split-array-largest-sum) |
@@ -503,6 +504,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/ayushdixit23/DSA/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/ayushdixit23/DSA/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/ayushdixit23/DSA/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/ayushdixit23/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ayushdixit23/DSA/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/ayushdixit23/DSA/tree/master/0208-implement-trie-prefix-tree) |
@@ -904,6 +906,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0078-subsets](https://github.com/ayushdixit23/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ayushdixit23/DSA/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0113-path-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/ayushdixit23/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ayushdixit23/DSA/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/ayushdixit23/DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
