@@ -467,6 +467,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayushdixit23/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ayushdixit23/DSA/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ayushdixit23/DSA/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
@@ -497,6 +498,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0014-longest-common-prefix](https://github.com/ayushdixit23/DSA/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ayushdixit23/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0022-generate-parentheses) |
 | [0043-multiply-strings](https://github.com/ayushdixit23/DSA/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/ayushdixit23/DSA/tree/master/0076-minimum-window-substring) |
@@ -844,6 +846,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0022-generate-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/ayushdixit23/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ayushdixit23/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Monotonic Stack
@@ -891,6 +894,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ayushdixit23/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/ayushdixit23/DSA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ayushdixit23/DSA/tree/master/0046-permutations) |
