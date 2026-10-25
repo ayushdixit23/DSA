@@ -370,6 +370,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/ayushdixit23/DSA/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ayushdixit23/DSA/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/ayushdixit23/DSA/tree/master/0282-expression-add-operators) |
 | [0367-valid-perfect-square](https://github.com/ayushdixit23/DSA/tree/master/0367-valid-perfect-square) |
 | [0445-add-two-numbers-ii](https://github.com/ayushdixit23/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0509-fibonacci-number](https://github.com/ayushdixit23/DSA/tree/master/0509-fibonacci-number) |
@@ -511,6 +512,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdixit23/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/ayushdixit23/DSA/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/ayushdixit23/DSA/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/ayushdixit23/DSA/tree/master/0316-remove-duplicate-letters) |
@@ -910,6 +912,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0131-palindrome-partitioning](https://github.com/ayushdixit23/DSA/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ayushdixit23/DSA/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/ayushdixit23/DSA/tree/master/0257-binary-tree-paths) |
+| [0282-expression-add-operators](https://github.com/ayushdixit23/DSA/tree/master/0282-expression-add-operators) |
 | [0301-remove-invalid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0301-remove-invalid-parentheses) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/ayushdixit23/DSA/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Quicksort
