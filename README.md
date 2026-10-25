@@ -29,6 +29,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/ayushdixit23/DSA/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ayushdixit23/DSA/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/ayushdixit23/DSA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ayushdixit23/DSA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ayushdixit23/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ayushdixit23/DSA/tree/master/0055-jump-game) |
@@ -908,6 +909,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0040-combination-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ayushdixit23/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/ayushdixit23/DSA/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/ayushdixit23/DSA/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/ayushdixit23/DSA/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/ayushdixit23/DSA/tree/master/0078-subsets) |
@@ -1243,5 +1245,6 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Algorithm X
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/ayushdixit23/DSA/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/ayushdixit23/DSA/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
