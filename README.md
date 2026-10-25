@@ -908,6 +908,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0040-combination-sum-ii](https://github.com/ayushdixit23/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ayushdixit23/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/ayushdixit23/DSA/tree/master/0047-permutations-ii) |
+| [0052-n-queens-ii](https://github.com/ayushdixit23/DSA/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/ayushdixit23/DSA/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/ayushdixit23/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ayushdixit23/DSA/tree/master/0079-word-search) |
@@ -1239,4 +1240,8 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0881-boats-to-save-people](https://github.com/ayushdixit23/DSA/tree/master/0881-boats-to-save-people) |
+## Algorithm X
+|  |
+| ------- |
+| [0052-n-queens-ii](https://github.com/ayushdixit23/DSA/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
