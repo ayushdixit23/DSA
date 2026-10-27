@@ -1,14 +1,4 @@
 # Write your MySQL query statement below
-SELECT
-machine_id,
-ROUND(AVG(end_time - start_time), 3) AS processing_time
-FROM (
-SELECT
-machine_id,
-process_id,
-MAX(CASE WHEN activity_type = 'start' THEN timestamp END) AS start_time,
-MAX(CASE WHEN activity_type = 'end' THEN timestamp END) AS end_time
-FROM Activity
-GROUP BY machine_id, process_id
-) as m
-GROUP BY machine_id;
+Select machine_id , Round(AVG(processing_time_min),3) as processing_time from (select machine_id, process_id, Round(Max(timestamp) - Min(timestamp), 3) as  processing_time_min from Activity 
+Group by machine_id, process_id) as machine_table group by machine_id
+
