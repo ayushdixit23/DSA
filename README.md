@@ -902,6 +902,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0610-triangle-judgement](https://github.com/ayushdixit23/DSA/tree/master/0610-triangle-judgement) |
 | [0619-biggest-single-number](https://github.com/ayushdixit23/DSA/tree/master/0619-biggest-single-number) |
 | [0620-not-boring-movies](https://github.com/ayushdixit23/DSA/tree/master/0620-not-boring-movies) |
+| [0626-exchange-seats](https://github.com/ayushdixit23/DSA/tree/master/0626-exchange-seats) |
 | [1045-customers-who-bought-all-products](https://github.com/ayushdixit23/DSA/tree/master/1045-customers-who-bought-all-products) |
 | [1050-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/ayushdixit23/DSA/tree/master/1050-actors-and-directors-who-cooperated-at-least-three-times) |
 | [1068-product-sales-analysis-i](https://github.com/ayushdixit23/DSA/tree/master/1068-product-sales-analysis-i) |
