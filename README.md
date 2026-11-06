@@ -1098,6 +1098,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ayushdixit23/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushdixit23/DSA/tree/master/0538-convert-bst-to-greater-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/ayushdixit23/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
@@ -1201,6 +1202,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0449-serialize-and-deserialize-bst](https://github.com/ayushdixit23/DSA/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/ayushdixit23/DSA/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ayushdixit23/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -1280,6 +1282,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 ## Pigeonhole Principle
 |  |
@@ -1311,5 +1314,6 @@ My solutions to LeetCode data structures and algorithms problems.
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
