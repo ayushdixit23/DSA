@@ -63,6 +63,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ayushdixit23/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ayushdixit23/DSA/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ayushdixit23/DSA/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ayushdixit23/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ayushdixit23/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/ayushdixit23/DSA/tree/master/0216-combination-sum-iii) |
@@ -618,6 +619,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0074-search-a-2d-matrix](https://github.com/ayushdixit23/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/ayushdixit23/DSA/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/ayushdixit23/DSA/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ayushdixit23/DSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdixit23/DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1090,6 +1092,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0144-binary-tree-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ayushdixit23/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -1202,6 +1205,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ayushdixit23/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/ayushdixit23/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/ayushdixit23/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/ayushdixit23/DSA/tree/master/0301-remove-invalid-parentheses) |
@@ -1290,6 +1294,7 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
