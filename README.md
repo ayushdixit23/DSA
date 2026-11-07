@@ -1117,6 +1117,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
@@ -1221,6 +1222,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -1332,5 +1334,6 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
+| [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
