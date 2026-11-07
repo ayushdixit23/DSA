@@ -96,6 +96,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0621-task-scheduler](https://github.com/ayushdixit23/DSA/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/ayushdixit23/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
+| [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/ayushdixit23/DSA/tree/master/0704-binary-search) |
 | [0706-design-hashmap](https://github.com/ayushdixit23/DSA/tree/master/0706-design-hashmap) |
 | [0720-longest-word-in-dictionary](https://github.com/ayushdixit23/DSA/tree/master/0720-longest-word-in-dictionary) |
@@ -621,6 +622,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0304-range-sum-query-2d-immutable](https://github.com/ayushdixit23/DSA/tree/master/0304-range-sum-query-2d-immutable) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0498-diagonal-traverse](https://github.com/ayushdixit23/DSA/tree/master/0498-diagonal-traverse) |
+| [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [1314-matrix-block-sum](https://github.com/ayushdixit23/DSA/tree/master/1314-matrix-block-sum) |
@@ -1107,6 +1109,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0669-trim-a-binary-search-tree) |
+| [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1209,6 +1212,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0617-merge-two-binary-trees](https://github.com/ayushdixit23/DSA/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ayushdixit23/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -1287,6 +1291,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ayushdixit23/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 ## Pigeonhole Principle
 |  |
