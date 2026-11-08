@@ -126,6 +126,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1004-max-consecutive-ones-iii](https://github.com/ayushdixit23/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ayushdixit23/DSA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ayushdixit23/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1046-last-stone-weight](https://github.com/ayushdixit23/DSA/tree/master/1046-last-stone-weight) |
 | [1109-corporate-flight-bookings](https://github.com/ayushdixit23/DSA/tree/master/1109-corporate-flight-bookings) |
 | [1207-unique-number-of-occurrences](https://github.com/ayushdixit23/DSA/tree/master/1207-unique-number-of-occurrences) |
@@ -635,6 +636,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/ayushdixit23/DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1314-matrix-block-sum](https://github.com/ayushdixit23/DSA/tree/master/1314-matrix-block-sum) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/ayushdixit23/DSA/tree/master/1572-matrix-diagonal-sum) |
@@ -1128,6 +1130,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/ayushdixit23/DSA/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
@@ -1238,6 +1241,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0958-check-completeness-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/ayushdixit23/DSA/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/ayushdixit23/DSA/tree/master/1302-deepest-leaves-sum) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -1314,6 +1318,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
+| [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 ## Pigeonhole Principle
 |  |
