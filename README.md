@@ -106,6 +106,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0724-find-pivot-index](https://github.com/ayushdixit23/DSA/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ayushdixit23/DSA/tree/master/0735-asteroid-collision) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0846-hand-of-straights](https://github.com/ayushdixit23/DSA/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/ayushdixit23/DSA/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
@@ -419,6 +420,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0493-reverse-pairs](https://github.com/ayushdixit23/DSA/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayushdixit23/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/ayushdixit23/DSA/tree/master/0704-binary-search) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0875-koko-eating-bananas](https://github.com/ayushdixit23/DSA/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushdixit23/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ayushdixit23/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -585,6 +587,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0692-top-k-frequent-words](https://github.com/ayushdixit23/DSA/tree/master/0692-top-k-frequent-words) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/ayushdixit23/DSA/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0767-reorganize-string](https://github.com/ayushdixit23/DSA/tree/master/0767-reorganize-string) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/ayushdixit23/DSA/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0912-sort-an-array](https://github.com/ayushdixit23/DSA/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ayushdixit23/DSA/tree/master/0973-k-closest-points-to-origin) |
@@ -636,6 +639,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0542-01-matrix](https://github.com/ayushdixit23/DSA/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/ayushdixit23/DSA/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
@@ -1130,6 +1134,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0669-trim-a-binary-search-tree](https://github.com/ayushdixit23/DSA/tree/master/0669-trim-a-binary-search-tree) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/ayushdixit23/DSA/tree/master/0785-is-graph-bipartite) |
 | [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
@@ -1240,6 +1245,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0662-maximum-width-of-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/ayushdixit23/DSA/tree/master/0733-flood-fill) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/ayushdixit23/DSA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/ayushdixit23/DSA/tree/master/0785-is-graph-bipartite) |
 | [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
@@ -1326,6 +1332,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0200-number-of-islands](https://github.com/ayushdixit23/DSA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ayushdixit23/DSA/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/ayushdixit23/DSA/tree/master/0695-max-area-of-island) |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/ayushdixit23/DSA/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
@@ -1372,4 +1379,12 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/ayushdixit23/DSA/tree/master/0785-is-graph-bipartite) |
+## Minimax
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0778-swim-in-rising-water](https://github.com/ayushdixit23/DSA/tree/master/0778-swim-in-rising-water) |
 <!---LeetCode Topics End-->
