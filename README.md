@@ -150,6 +150,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/ayushdixit23/DSA/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/ayushdixit23/DSA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ayushdixit23/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1765-map-of-highest-peak](https://github.com/ayushdixit23/DSA/tree/master/1765-map-of-highest-peak) |
 | [1834-single-threaded-cpu](https://github.com/ayushdixit23/DSA/tree/master/1834-single-threaded-cpu) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/ayushdixit23/DSA/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ayushdixit23/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -642,6 +643,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1314-matrix-block-sum](https://github.com/ayushdixit23/DSA/tree/master/1314-matrix-block-sum) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/ayushdixit23/DSA/tree/master/1572-matrix-diagonal-sum) |
+| [1765-map-of-highest-peak](https://github.com/ayushdixit23/DSA/tree/master/1765-map-of-highest-peak) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ayushdixit23/DSA/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1901-find-a-peak-element-ii](https://github.com/ayushdixit23/DSA/tree/master/1901-find-a-peak-element-ii) |
 | [2965-find-missing-and-repeated-values](https://github.com/ayushdixit23/DSA/tree/master/2965-find-missing-and-repeated-values) |
@@ -1249,6 +1251,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1091-shortest-path-in-binary-matrix](https://github.com/ayushdixit23/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/ayushdixit23/DSA/tree/master/1302-deepest-leaves-sum) |
+| [1765-map-of-highest-peak](https://github.com/ayushdixit23/DSA/tree/master/1765-map-of-highest-peak) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ayushdixit23/DSA/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2583-kth-largest-sum-in-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/2583-kth-largest-sum-in-a-binary-tree) |
