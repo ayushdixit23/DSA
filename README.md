@@ -128,6 +128,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ayushdixit23/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
 | [1046-last-stone-weight](https://github.com/ayushdixit23/DSA/tree/master/1046-last-stone-weight) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdixit23/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1109-corporate-flight-bookings](https://github.com/ayushdixit23/DSA/tree/master/1109-corporate-flight-bookings) |
 | [1207-unique-number-of-occurrences](https://github.com/ayushdixit23/DSA/tree/master/1207-unique-number-of-occurrences) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushdixit23/DSA/tree/master/1248-count-number-of-nice-subarrays) |
@@ -637,6 +638,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0867-transpose-matrix](https://github.com/ayushdixit23/DSA/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/ayushdixit23/DSA/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdixit23/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1314-matrix-block-sum](https://github.com/ayushdixit23/DSA/tree/master/1314-matrix-block-sum) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ayushdixit23/DSA/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1572-matrix-diagonal-sum](https://github.com/ayushdixit23/DSA/tree/master/1572-matrix-diagonal-sum) |
@@ -1244,6 +1246,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/ayushdixit23/DSA/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ayushdixit23/DSA/tree/master/1020-number-of-enclaves) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/ayushdixit23/DSA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/ayushdixit23/DSA/tree/master/1302-deepest-leaves-sum) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ayushdixit23/DSA/tree/master/1971-find-if-path-exists-in-graph) |
