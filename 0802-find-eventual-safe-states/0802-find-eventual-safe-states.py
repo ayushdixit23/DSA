@@ -1,34 +1,36 @@
 class Solution:
-    def dfs(self, visited, path, safe, i, adj):
+    def dfs(self, visited, safeNodes, path, graph, i):
         visited[i] = True
         path[i] = True
 
-        for v in adj[i]:
+        for v in graph[i]:
             if not visited[v]:
-                if self.dfs(visited, path, safe, v, adj):
+                if self.dfs(visited, safeNodes, path, graph, v):
                     return True
-
-            elif path[v]:
-                return True
-
+            else:
+                if path[v]:
+                    return True
+        
         path[i] = False
-        safe[i] = True
+        safeNodes[i] = True
         return False
 
     def eventualSafeNodes(self, graph: list[list[int]]) -> list[int]:
         n = len(graph)
 
         visited = [False] * n
+        safeNodes = [False] * n
         path = [False] * n
-        safe = [False] * n
+
+        ans = []
 
         for i in range(n):
             if not visited[i]:
-                self.dfs(visited, path, safe, i, graph)
+                self.dfs(visited, safeNodes, path, graph, i)
 
-        ans = []
+        
         for i in range(n):
-            if safe[i]:
+            if safeNodes[i]:
                 ans.append(i)
-
+        
         return ans
