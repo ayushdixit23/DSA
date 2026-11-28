@@ -1169,6 +1169,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ayushdixit23/DSA/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/ayushdixit23/DSA/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ayushdixit23/DSA/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1192-critical-connections-in-a-network](https://github.com/ayushdixit23/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1302-deepest-leaves-sum](https://github.com/ayushdixit23/DSA/tree/master/1302-deepest-leaves-sum) |
 | [1305-all-elements-in-two-binary-search-trees](https://github.com/ayushdixit23/DSA/tree/master/1305-all-elements-in-two-binary-search-trees) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayushdixit23/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
@@ -1419,6 +1420,7 @@ My solutions to LeetCode data structures and algorithms problems.
 | [0802-find-eventual-safe-states](https://github.com/ayushdixit23/DSA/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/ayushdixit23/DSA/tree/master/0841-keys-and-rooms) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ayushdixit23/DSA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [1192-critical-connections-in-a-network](https://github.com/ayushdixit23/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ayushdixit23/DSA/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ayushdixit23/DSA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/ayushdixit23/DSA/tree/master/1514-path-with-maximum-probability) |
@@ -1498,4 +1500,12 @@ My solutions to LeetCode data structures and algorithms problems.
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/ayushdixit23/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/ayushdixit23/DSA/tree/master/1192-critical-connections-in-a-network) |
+## Bridge (Graph)
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/ayushdixit23/DSA/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
